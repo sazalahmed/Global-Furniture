@@ -580,10 +580,6 @@ button {
     -o-transform: scale(1);
 }
 
-.menu_cart_area {}
-
-.menu_cart_area .offcanvas {}
-
 .menu_cart_area .offcanvas-header {
     border-bottom: 1px solid var(--borderColor);
     margin-bottom: 10px;
@@ -1010,8 +1006,6 @@ button {
 
 
 /* add manner start */
-.add_banner {}
-
 .add_banner_item {
     position: relative;
 }
@@ -1067,8 +1061,6 @@ button {
 .favourite_product_text {
     text-align: center;
 }
-
-.favourite_product_text h2 {}
 
 .favourite_product_text a {
     font-size: 24px;
@@ -1235,11 +1227,6 @@ button {
     text-decoration: none;
 }
 
-
-
-
-.single_product_slider_area {}
-
 .single_product_thumb {
     display: block;
     height: 550px;
@@ -1340,7 +1327,9 @@ button {
 
 
 /* testimonial start */
-.testimonial {}
+.testimonial {
+    padding: 0px 25px;
+}
 
 .single_testimonial {
     background: var(--colorWhite);
@@ -1349,8 +1338,9 @@ button {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    min-height: 350px;
+    min-height: 270px;
     padding: 30px;
+    margin: 15px 12px 25px 12px;
 }
 
 .single_testimonial .img {
@@ -1361,11 +1351,15 @@ button {
 }
 
 .single_testimonial .text {
-    width: 83%;
+    width: 80%;
 }
 
 .single_testimonial .text .review {
     position: relative;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 .single_testimonial .text ul {
@@ -1375,29 +1369,52 @@ button {
     margin-top: 30px;
 }
 
-.single_testimonial .text ul li {}
-
-.single_testimonial .text ul li h4 {
-    font-size: 20px;
-    font-weight: 600;
+.single_testimonial .text ul li:first-child {
+    border-right: 1px solid var(--borderColor);
+    padding-right: 20px;
+    margin-right: 20px;
 }
 
-.single_testimonial .text ul li p {}
+.single_testimonial .text ul li h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
 
-.single_testimonial .text ul li span {}
+.single_testimonial .text ul li p {
+    font-size: 14px;
+}
 
-
-
-
-
-
-
-
-
+.single_testimonial .text ul li span {
+    display: block;
+    width: 100px;
+}
 
 /* testimonial end */
 
+/* brand start */
+.brand {}
 
+.brand .section_heading {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.brand_item {
+    margin-top: 25px;
+    background: var(--colorWhite);
+    box-shadow: var(--boxShadow);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+
+
+
+
+/* brand end */
 
 
 
