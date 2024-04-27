@@ -42,13 +42,14 @@ span {
     font-size: 16px;
     font-weight: 400;
     margin: 0;
+    color: var(--paraColor);
 }
 
 body {
     overflow-x: hidden;
     scroll-behavior: smooth;
     font-family: var(--bodyFont);
-    color: var(--paraColor);
+    color: var(--colorBlack);
 }
 
 img {
@@ -83,7 +84,7 @@ button {
     --colorGreen: #28a745;
     --colorBlack: #2c292a;
     --colorWhite: #ffffff;
-    --paraColor: #474747;
+    --paraColor: #6a6a6a;
     --bodyFont: "Barlow", sans-serif;
     --boxShadow: 0 5px 25px 0 rgb(0 0 0 / 10%);
     --borderColor: rgba(30, 30, 47, 0.10);
@@ -1346,8 +1347,23 @@ button {
 .single_testimonial .img {
     width: 80px;
     height: 80px;
-    border-radius: 50%;
     overflow: hidden;
+    padding: 5px;
+    background: var(--colorWhite);
+    box-shadow: var(--boxShadow);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.single_testimonial .img img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
 .single_testimonial .text {
@@ -1357,8 +1373,9 @@ button {
 .single_testimonial .text .review {
     position: relative;
     display: -webkit-box;
-    -webkit-line-clamp: 5;
+    -webkit-line-clamp: 6;
     -webkit-box-orient: vertical;
+    height: 125px;
     overflow: hidden;
 }
 
@@ -1393,7 +1410,9 @@ button {
 /* testimonial end */
 
 /* brand start */
-.brand {}
+.brand {
+    padding: 0px 25px;
+}
 
 .brand .section_heading {
     text-align: center;
@@ -1407,21 +1426,44 @@ button {
     box-shadow: var(--boxShadow);
     border-radius: 10px;
     overflow: hidden;
+    height: 150px;
+    padding: 30px;
 }
-
-
-
-
-
 
 /* brand end */
 
+/* imei start */
+.imei_banner {
+    height: 175px;
+    overflow: hidden;
+}
+
+.imei_img {
+    height: 800px;
+    overflow: hidden;
+}
+
+/* imei end */
+
+
+/* founder testimonial start */
+.founder_testimonial_img {
+    height: 800px;
+    overflow: hidden;
+}
+
+/* founder testimonial end */
+
+/* footer start */
 
 
 
 
 
 
+
+
+/* footer end */
 
 
 /*====================================
