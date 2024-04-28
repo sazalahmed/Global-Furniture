@@ -218,8 +218,8 @@ $(function () {
         ]
     });
 
-
-
+    // Nice select
+    $('.select_js').niceSelect();
 
 
 });

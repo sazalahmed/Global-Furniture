@@ -90,6 +90,7 @@ button {
     --borderColor: rgba(30, 30, 47, 0.10);
 }
 
+
 .cuntom_container {
     max-width: 1770px;
 }
@@ -113,7 +114,6 @@ button {
     text-transform: capitalize;
     display: inline-block;
     border-radius: 6px;
-    /* overflow: hidden; */
 }
 
 .common_btn i {
@@ -280,6 +280,67 @@ button {
     left: -12px;
 }
 
+.breadcrumb {
+    padding: 0px 50px;
+    margin: 0;
+}
+
+.breadcrumb_item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+}
+
+.breadcrumb_item li {
+    position: relative;
+}
+
+.breadcrumb_item li a {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--paraColor);
+    text-transform: uppercase;
+    position: relative;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.breadcrumb_item li a:hover,
+.breadcrumb_item li a.active {
+    color: var(--colorPrimary);
+}
+
+.breadcrumb_item li a.active {
+    border-bottom: 1px solid var(--colorPrimary);
+}
+
+.breadcrumb_item li a::after {
+    position: absolute;
+    content: "\f054";
+    font-family: "font awesome 5 free";
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--paraColor);
+    top: 4px;
+    right: -24px;
+}
+
+.breadcrumb_item li:last-child a::after {
+    display: none;
+}
+
+.breadcrumb_item li:last-child a,
+.breadcrumb_item li a.active {
+    cursor: unset;
+}
+
+
+
+
 /*====================================
     GLOBAL CSS END
 ====================================*/
@@ -292,6 +353,7 @@ button {
 .main_menu {
     width: 100%;
     height: 80px;
+    background: var(--colorWhite);
     position: fixed;
     top: 0;
     left: 0;
@@ -301,7 +363,11 @@ button {
     -moz-transition: all linear .2s;
     -ms-transition: all linear .2s;
     -o-transition: all linear .2s;
-    padding: 0 50px;
+    padding: 0 35px;
+}
+
+.home_page .main_menu {
+    background: transparent;
 }
 
 .main_menu .navbar-brand {
@@ -315,7 +381,7 @@ button {
     position: relative;
 }
 
-.main_menu .navbar-nav .nav-item:last-child {
+.main_menu .navbar-nav .nav-item.relative {
     position: relative;
 }
 
@@ -324,12 +390,16 @@ button {
     margin: 0;
     font-size: 16px;
     font-weight: 600;
-    color: var(--colorWhite);
+    color: var(--colorBlack);
     transition: all linear .2s;
     -webkit-transition: all linear .2s;
     -moz-transition: all linear .2s;
     -ms-transition: all linear .2s;
     -o-transition: all linear .2s;
+}
+
+.home_page .main_menu .navbar-nav .nav-item .nav-link {
+    color: var(--colorWhite);
 }
 
 .main_menu .navbar-nav .nav-item:hover .nav-link,
@@ -873,6 +943,8 @@ button {
     background: #4267b2;
     margin-bottom: 5px;
 }
+
+
 
 /* menu end */
 
@@ -1587,34 +1659,129 @@ footer {
 /*====================================
     CATEGORY PAGE START
 ====================================*/
-.category_banner {
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
-    background-position: center !important;
+.category_banner {}
+
+.category_banner_img {
+    display: block;
+    width: 100%;
+    height: 380px;
+    overflow: hidden;
 }
 
-.category_banner_overlay {
-    background: #00000080;
+.category_banner_img img {
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
 }
 
-.category_banner_text {
-    padding: 200px 0px 150px 0px;
+.category_banner_img:hover img {
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
 }
 
-.category_banner_text h2 {
-    color: var(--colorWhite);
+
+.category_page {
+    padding: 0px 25px;
+}
+
+.category_page_item {
+    background: var(--colorWhite);
+    box-shadow: var(--boxShadow);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 10px;
+    margin-top: 25px;
+}
+
+.category_page_item .img {
+    height: 270px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.category_page_item .img img {
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.category_page_item:hover .img img {
+    transform: scale(1.05) rotate(3deg);
+    -webkit-transform: scale(1.05) rotate(3deg);
+    -moz-transform: scale(1.05) rotate(3deg);
+    -ms-transform: scale(1.05) rotate(3deg);
+    -o-transform: scale(1.05) rotate(3deg);
+}
+
+.category_page_item span {
+    display: block;
     text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--colorBlack);
+    text-transform: capitalize;
+    margin-top: 10px;
 }
 
+.category_product {
+    padding: 0px 25px;
+}
+
+.product_top_filter ul li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.product_top_filter ul li p {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--colorBlack);
+    text-transform: capitalize;
+}
+
+.product_top_filter ul li .nice-select {
+    width: 80px;
+}
+
+.product_top_filter ul li:first-child .nice-select {
+    width: 235px;
+}
+
+/*====================================
+    CATEGORY PAGE END
+====================================*/
 
 
+/*====================================
+    PRODUCT PAGE START
+====================================*/
+.product_page {
+    padding: 0px 25px;
+}
 
+.product_sidebar {}
 
+.single_product {}
 
+.single_product_img {}
 
+.single_product_text {}
 
+.single_product_text .category {}
 
+.single_product_text .title {}
 
+.single_product_text h3 {}
 
 
 
@@ -1623,9 +1790,8 @@ footer {
 
 
 /*====================================
-    CATEGORY PAGE END
+    PRODUCT PAGE END
 ====================================*/
-
 
 
 
