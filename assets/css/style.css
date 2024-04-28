@@ -828,6 +828,7 @@ button {
     border-radius: 100px;
     margin-top: 10px;
     background: var(--colorGreen);
+    overflow: hidden;
 }
 
 .menu_login_modal .modal-body p {
@@ -861,6 +862,7 @@ button {
 
 .menu_login_modal .modal-body a {
     border-radius: 100px;
+    overflow: hidden;
 }
 
 .menu_login_modal .modal-body a i {
@@ -1420,31 +1422,47 @@ button {
     margin-bottom: 25px;
 }
 
-.brand_item {
+.brand_area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.brand_area li {
     margin-top: 25px;
-    background: var(--colorWhite);
-    box-shadow: var(--boxShadow);
     border-radius: 10px;
     overflow: hidden;
-    height: 150px;
-    padding: 30px;
+    width: 140px;
+    height: 75px;
+    padding: 10px;
+}
+
+.brand_area li img {
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.brand_area li:hover img {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
 }
 
 /* brand end */
 
 /* imei start */
-.imei_banner {
-    height: 175px;
-    overflow: hidden;
-}
-
 .imei_img {
     height: 800px;
     overflow: hidden;
 }
 
 /* imei end */
-
 
 /* founder testimonial start */
 .founder_testimonial_img {
@@ -1455,19 +1473,157 @@ button {
 /* founder testimonial end */
 
 /* footer start */
+footer {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    padding: 50px 50px 30px 50px;
+}
 
+.footer_logo_area .footer_logo {
+    width: 190px;
+    margin-bottom: 15px;
+}
 
+.footer_logo_area ul li a,
+.footer_logo_area ul li p {
+    display: block;
+    font-size: 16px;
+    color: var(--paraColor);
+    position: relative;
+    padding-left: 30px;
+    margin-top: 15px;
+    max-width: 70%;
+}
 
+.footer_logo_area ul li a span,
+.footer_logo_area ul li p span {
+    position: absolute;
+    top: 1px;
+    left: 0;
+}
 
+.footer_logo_area ul li a b {
+    color: var(--colorBlack);
+    font-size: 16px;
+    font-weight: 600;
+}
 
+.footer_link h3 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
 
+.footer_link ul li a {
+    display: block;
+    font-size: 16px;
+    color: var(--paraColor);
+    position: relative;
+    margin-top: 15px;
+    transition: all linear .3s;
+}
 
+.footer_link ul li a:hover {
+    color: var(--colorBlack);
+    padding-left: 5px;
+}
+
+.footer_facebook h3 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+}
+
+.footer_facebook iframe {
+    width: 100%;
+    height: 130px;
+    overflow: hidden !important;
+    margin-bottom: 10px;
+}
+
+.footer_facebook ul {
+    gap: 10px;
+}
+
+.footer_facebook ul li a {
+    color: var(--colorBlack);
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #6a6a6a59;
+    text-align: center;
+    border-radius: 50%;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.footer_facebook ul li a:hover {
+    background: var(--colorPrimary);
+    border-color: var(--colorPrimary);
+    color: var(--colorWhite);
+}
+
+.footer_copyright_area {
+    border-top: 1px solid #6a6a6a21;
+    padding-top: 25px;
+    margin-top: 45px;
+}
 
 /* footer end */
 
 
 /*====================================
     HOME PAGE END
+====================================*/
+
+
+/*====================================
+    CATEGORY PAGE START
+====================================*/
+.category_banner {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+.category_banner_overlay {
+    background: #00000080;
+}
+
+.category_banner_text {
+    padding: 200px 0px 150px 0px;
+}
+
+.category_banner_text h2 {
+    color: var(--colorWhite);
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*====================================
+    CATEGORY PAGE END
 ====================================*/
 
 
