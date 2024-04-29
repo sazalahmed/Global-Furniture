@@ -218,8 +218,58 @@ $(function () {
         ]
     });
 
+
     // Nice select
     $('.select_js').niceSelect();
+
+
+    // Sidebar category dropdown
+    $('.categoty_list li').on("click", function () {
+        var isActive = $(this).hasClass("active");
+        var submenu = $(this).find('.sidebar_sub_category');
+
+        // get the height of the child of submenu
+        var dynamicHeight = 0;
+        $(submenu).find('div').each(function () {
+            dynamicHeight += $(this).outerHeight(true);
+        });
+
+        $(".categoty_list li").removeClass("active");
+
+        // and remove the height of all the submenu
+        $(".categoty_list li .sidebar_sub_category").css("height", "0px");
+
+        // toggle the button
+        if ($(this).hasClass("active")) {
+            $(".categoty_list li").removeClass("active");
+            $(submenu).css("height", "0px");
+        }
+
+        if (!isActive) {
+            $(this).addClass("active");
+            $(submenu).css("height", dynamicHeight + "px");
+        }
+    });
+
+
+    // Range Slider
+    $('.basic').alRangeSlider();
+    const options = {
+        range: { min: 10, max: 1000, step: 1 },
+        initialSelectedValues: { from: 200, to: 800 },
+        grid: { minTicksStep: 1, marksStep: 5 },
+        theme: "dark",
+    };
+
+    $('.range_slider').alRangeSlider(options);
+    const options2 = {
+        orientation: "vertical"
+    };
+
+
+
+
+
 
 
 });
