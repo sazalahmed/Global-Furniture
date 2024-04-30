@@ -64,9 +64,13 @@ textarea {
     outline: none;
     resize: none;
     border: 1px solid var(--borderColor);
-    border-radius: 3px;
+    border-radius: 5px;
     font-size: 16px;
     font-weight: 300;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 input::placeholder,
@@ -114,6 +118,7 @@ button {
     text-transform: capitalize;
     display: inline-block;
     border-radius: 6px;
+    overflow: hidden;
 }
 
 .common_btn i {
@@ -2054,6 +2059,783 @@ footer {
 /*====================================
     PRODUCT PAGE END
 ====================================*/
+
+
+
+
+
+/*====================================
+    CONTACT US START
+====================================*/
+
+.contanct_area {
+    padding: 0px 50px;
+}
+
+.contact_text {
+    margin-top: 50px;
+    padding: 25px 40px 40px 40px;
+    background: var(--colorWhite);
+    box-shadow: var(--boxShadow);
+    border-radius: 10px;
+}
+
+.contact_text h2 {
+    font-size: 50px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.contact_form {
+    margin-top: 15px;
+}
+
+.contact_form_input {
+    margin-top: 18px;
+}
+
+.contact_form_input label {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--colorBlack);
+}
+
+.contact_form_input input,
+.contact_form_input textarea {
+    margin-top: 10px;
+}
+
+.contact_form_btn {
+    margin-top: 25px;
+}
+
+.contact_address {
+    margin-top: 50px;
+    padding: 25px 40px 35px 40px;
+    background: var(--colorWhite);
+    box-shadow: var(--boxShadow);
+    border-radius: 10px;
+}
+
+.contact_address li {
+    margin-top: 15px;
+}
+
+.contact_address li a,
+.contact_address li p {
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+    color: var(--paraColor);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.contact_address li a:hover,
+.contact_address li p:hover {
+    color: var(--colorPrimary);
+}
+
+.contact_address li a span,
+.contact_address li p span {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    background: #6a6a6a63;
+    color: var(--colorBlack);
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.contact_address li a:hover span,
+.contact_address li p:hover span {
+    color: var(--colorWhite);
+    background: var(--colorPrimary);
+
+}
+
+.contact_address_map {
+    margin-top: 40px;
+}
+
+.contact_address_map iframe {
+    width: 100%;
+    height: 395px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+/*====================================
+    CONTACT US END
+====================================*/
+
+
+
+/*====================================
+    ABOUT US START
+====================================*/
+
+.about_us {
+    padding: 0px 50px;
+}
+
+.about_top_banner {
+    height: 500px;
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.about_us_item_img {
+    height: 500px;
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.about_us_item_exparience {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 35px;
+}
+
+.about_us_item_exparience h2 {
+    font-size: 100px;
+    font-weight: 600;
+    color: var(--colorPrimary);
+    margin-right: 10px;
+    text-transform: capitalize;
+}
+
+.about_us_item_exparience p,
+.about_us_item_exparience p span {
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--colorBlack);
+}
+
+.about_us_item_exparience p span {
+    display: block;
+}
+
+.about_item_nav {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.about_item_nav ul {
+    justify-content: space-between;
+}
+
+.about_item_nav ul li button,
+.about_item_nav ul li .nav-link.active {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--colorBlack);
+    text-transform: uppercase;
+    background: transparent;
+    padding: 0;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.about_item_nav ul li button:hover,
+.about_item_nav ul li .nav-link.active {
+    color: var(--colorPrimary) !important;
+}
+
+.about_item_nav .tab-content {
+    margin-top: 15px;
+}
+
+.about_item_nav .tab-content h6 {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+.about_item_nav .tab-content h6 span {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.about_us_item_text {
+    margin-left: 40px;
+}
+
+.about_us_item_text h2 {
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.about_us_item_text p {
+    margin-top: 32px;
+}
+
+.about_us_item_text_2 {
+    margin-left: 0px;
+    margin-right: 40px;
+}
+
+.about_counter_item {
+    text-align: center;
+    background: var(--colorWhite);
+    padding: 40px 40px 35px 40px;
+    box-shadow: var(--boxShadow);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.about_counter_item .icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 50px;
+    color: var(--colorPrimary);
+    border: 1px solid var(--borderColor);
+    border-radius: 50%;
+}
+
+.about_counter_item h2,
+.about_counter_item h2 span {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--colorBlack);
+    margin-top: 15px;
+}
+
+.about_counter_item p {
+    margin-top: 6px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.about_review_item {
+    text-align: center;
+    margin: 16px 12px;
+    background: var(--colorWhite);
+    padding: 40px 40px 32px;
+    box-shadow: rgb(0 0 0 / 9%) 0px 4px 12px;
+    border-radius: 10px;
+}
+
+.about_review_item_top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.about_review_item_top .img {
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    margin-right: 15px;
+    border: 3px solid var(--colorWhite);
+    box-shadow: var(--boxShadow);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.about_review_item_top .text {
+    text-align: start;
+}
+
+.about_review_item_top .text h5 {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.about_review_item_top .text span {
+    display: block;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.about_review_item h6 {
+    font-size: 45px;
+    color: #ffbcbc;
+    margin-top: 23px;
+    margin-bottom: 20px;
+}
+
+.about_branding_item {
+    display: block;
+    height: 130px;
+    margin: 12px 12px;
+    box-shadow: var(--boxShadow);
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.about_branding .slick-dots {
+    position: absolute;
+    bottom: -22px;
+    left: 0px;
+    z-index: 9;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.about_branding .slick-dots li button {
+    font-size: 0;
+    width: 30px;
+    height: 7px;
+    background: #ffbcbc;
+    border-radius: 30px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.about_branding .slick-dots li button::after {
+    display: none;
+}
+
+.about_branding .slick-dots li.slick-active button,
+.about_branding .slick-dots li button:hover {
+    background: var(--colorPrimary);
+}
+
+/*====================================
+    ABOUT US END
+====================================*/
+
+
+
+/*====================================
+    CAREER START
+====================================*/
+
+.single_career {
+    margin-top: 25px;
+    padding: 30px 40px 25px 40px;
+    border-radius: 10px;
+    background: var(--colorWhite);
+    box-shadow: var(--boxShadow);
+    overflow: hidden;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.single_career h2 {
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.single_career span {
+    font-size: 15px;
+    font-weight: 500;
+    display: block;
+    text-transform: capitalize;
+    margin-top: 17px;
+    color: var(--colorBlack);
+}
+
+.single_career ul {
+    margin: 25px 0px 25px 0px;
+}
+
+.single_career ul li {
+    text-transform: capitalize;
+    font-size: 16px;
+    padding: 7px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-weight: 600;
+    color: var(--colorBlack);
+    background: #eeeeeefc;
+}
+
+.single_career ul li i {
+    margin-right: 5px;
+}
+
+.single_career h5 {
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+
+.single_career h5 i {
+    color: red;
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+.single_career p {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.career_text_center {
+    overflow: hidden;
+    padding-bottom: 13px;
+}
+
+.single_career_img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.single_career_img img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+}
+
+/*====================================
+    CAREER END
+====================================*/
+
+
+/*====================================
+    CAREER DETAILS START
+====================================*/
+
+.career_details_area {
+    margin-top: 25px;
+    padding: 32px 40px 35px 40px;
+    border-radius: 10px;
+    background: var(--colorWhite);
+    box-shadow: var(--boxShadow);
+    overflow: hidden;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.career_details_text h4 {
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.career_details_text p {
+    margin-top: 18px;
+}
+
+.career_details_text ul {
+    margin-top: 30px;
+}
+
+.career_details_text ul li {
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+
+.career_details_text ul li::after {
+    content: "\f058";
+    font-family: "Font Awesome 5 Free";
+    font-size: 14px;
+    position: absolute;
+    top: 3px;
+    left: 0;
+    color: var(--colorBlack);
+}
+
+/*====================================
+    CAREER DETAILS END
+====================================*/
+
+
+/*====================================
+    FAQ START
+====================================*/
+
+.faq_accordion .accordion-item {
+    margin-top: 15px;
+    border-bottom: none;
+    background: var(--colorWhite);
+    box-shadow: var(--boxShadow);
+}
+
+.faq_accordion .accordion-button {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 11px 12px 11px 70px;
+}
+
+.faq_accordion .accordion-body {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(3, 18, 33, 0.7);
+    padding: 23px 25px 32px 70px;
+    border-top: 1px solid var(--borderColor);
+}
+
+.accordion_list_one,
+.accordion_list_two {
+    margin-top: 15px;
+}
+
+.accordion_list_one li,
+.accordion_list_two li {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--colorBlack);
+    position: relative;
+    padding-left: 16px;
+    margin-top: 10px;
+}
+
+.accordion_list_one li::after {
+    position: absolute;
+    content: "";
+    top: 11px;
+    left: 0px;
+    width: 6px;
+    height: 6px;
+    background: var(--colorPrimary);
+    border-radius: 50%;
+}
+
+.accordion-button:not(.collapsed) {
+    background: transparent;
+
+}
+
+.faq_accordion .accordion-button:focus {
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.faq_accordion .accordion-button::after {
+    position: relative;
+    top: 0;
+    left: -1235px;
+    right: auto;
+    width: 32px !important;
+    height: 32px !important;
+    background-image: url(../images/acordion_angle_1.png);
+    background-size: auto;
+}
+
+.faq_accordion .accordion-button:not(.collapsed)::after {
+    background-image: url(../images/acordion_angle_2.png);
+}
+
+/*====================================
+    FAQ END
+====================================*/
+
+
+
+/*====================================
+    RETURN POLICY START
+====================================*/
+
+.return_policy_contant {
+    padding: 32px 40px 35px 40px;
+    border-radius: 10px;
+    background: var(--colorWhite);
+    box-shadow: var(--boxShadow);
+    overflow: hidden;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.return_policy_contant .nav-pills li {
+    width: 33.33%;
+}
+
+.return_policy_contant .nav-pills button {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 12px 0px;
+    background: rgb(238, 238, 238);
+    color: var(--colorBlack);
+    border-radius: 0px !important;
+}
+
+.return_policy_contant .nav-pills button:hover {
+    color: var(--colorBlack);
+}
+
+.return_policy_contant .nav-pills .nav-link.active,
+.return_policy_contant .nav-pills .show>.nav-link {
+    color: var(--colorWhite);
+    background-color: var(--colorPrimary);
+}
+
+.return_policy_nav_contant {
+    margin-top: 42px;
+}
+
+.return_policy_nav_contant h4 {
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.return_policy_nav_contant p {
+    margin-top: 20px;
+}
+
+.return_policy_nav_contant_one {
+    margin-top: 20px;
+}
+
+.return_policy_nav_contant_one li,
+.return_policy_nav_contant_two li {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.return_policy_nav_contant h6 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.return_policy_nav_contant_two {
+    margin-top: 10px;
+}
+
+.return_policy_nav_contant_two li {
+    position: relative;
+    padding-left: 15px;
+}
+
+.return_policy_nav_contant_two li::after {
+    position: absolute;
+    content: "";
+    top: 9px;
+    left: 0;
+    width: 6px;
+    height: 6px;
+    background: var(--colorPrimary);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/*====================================
+    RETURN POLICY END
+====================================*/
+
+
+/*====================================
+    PRIVACY $ TERMS_CONDITIN START
+====================================*/
+
+.privacy_terms_contant {
+    padding: 32px 40px 35px 40px;
+    border-radius: 10px;
+    background: var(--colorWhite);
+    box-shadow: var(--boxShadow);
+    overflow: hidden;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.privacy_terms_text h4 {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.privacy_terms_text p {
+    margin-top: 20px;
+}
+
+.privacy_terms_text ul {
+    margin-top: 20px;
+}
+
+.privacy_terms_text ul li {
+    margin-top: 5px;
+}
+
+/*====================================
+    PRIVACY $ TERMS_CONDITIN END
+====================================*/
+
+
+
+
+
+
+
+
+
+
 
 
 
