@@ -322,6 +322,10 @@ $(function () {
 
 
 
+    //=======SELECT_2 JS======
+    $(document).ready(function () {
+        $('.select_2').select2();
+    });
 
 
     //=======COUNTER JS======

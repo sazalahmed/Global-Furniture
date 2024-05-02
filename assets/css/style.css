@@ -2081,7 +2081,7 @@ footer {
 }
 
 .contact_text h2 {
-    font-size: 50px;
+    font-size: 40px;
     text-transform: capitalize;
     font-weight: 600;
 }
@@ -2828,8 +2828,390 @@ footer {
 ====================================*/
 
 
+/*====================================
+    CHECKOUT START
+====================================*/
+
+.checkout {
+    padding: 0px 50px;
+}
+
+.checkout_info {
+    padding: 25px 40px 50px 40px;
+    background: var(--colorWhite);
+    box-shadow: var(--boxShadow);
+    border-radius: 10px;
+}
+
+.checkout_info h2,
+.checkout_order_summery h2 {
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.checkout_info_input {
+    margin-top: 18px;
+}
+
+.checkout_info_input label {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--colorBlack);
+}
+
+.checkout_info_input input {
+    margin-top: 10px;
+}
+
+.checkout_info_input .select2-container--default .select2-selection--single {
+    margin-top: 12px;
+}
+
+.checkout_info_input .select2-container--default .select2-selection--single .select2-selection__arrow b {
+    margin-top: 17px;
+}
+
+.select_delivery {
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 43px;
+}
+
+.select_delivery .form-check {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 7px 18px 10px 42px;
+    background: rgba(237, 27, 53, 0.3);
+    color: var(--colorBlack);
+    border-radius: 5px;
+}
+
+.select_delivery .form-check-input {
+    padding: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.select_delivery .form-check-input:focus {
+    border-color: var(--borderColor);
+    box-shadow: none;
+}
+
+.select_delivery .form-check-label {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+
+.select_delivery .form-check-input:checked {
+    background-color: var(--colorPrimary);
+    border-color: var(--colorPrimary);
+}
+
+.checkout_info_btn {
+    margin-top: 40px;
+}
+
+.checkout_info_btn .submit_btn {
+    margin-right: 20px;
+    background: var(--colorGreen);
+}
+
+.checkout_order_summery {
+    padding: 25px 40px 50px 40px;
+    background: var(--colorWhite);
+    box-shadow: var(--boxShadow);
+    border-radius: 10px;
+}
+
+.checkout_order_summery h5 {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout_order_summery h5 {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.checkout_order_summery form {
+    position: relative;
+    margin-top: 30px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid var(--borderColor);
+}
+
+.checkout_order_summery form button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 13px 35px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.checkout_order_summery h6 {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    border-bottom: 1px solid var(--borderColor);
+}
+
+.checkout_order_summery h6 span {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--colorBlack);
+}
+
+.checkout_order_summery h4 {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 20px 0px;
+}
+
+.order_summary_radio {
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--borderColor);
+}
+
+.order_summary_radio .form-check {
+    margin-bottom: 7px;
+}
+
+.order_summary_radio .form-check-input {
+    padding: 0;
+}
+
+.order_summary_radio .form-check-input:checked {
+    background-color: var(--colorPrimary);
+    border-color: var(--colorPrimary);
+}
+
+.order_summary_radio .form-check-input:focus {
+    border-color: var(--borderColor);
+    box-shadow: none;
+}
+
+.order_summary_radio .form-check-label {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.order_summary_checkbox {
+    margin-top: 20px;
+}
+
+.order_summary_checkbox .form-check-input {
+    padding: 0;
+    margin-top: 5px;
+}
+
+.order_summary_checkbox .form-check-label {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.order_summary_checkbox .form-check-label a {
+    color: var(--colorPrimary);
+}
+
+.order_summary_checkbox .form-check-input:checked {
+    background-color: var(--colorPrimary);
+    border-color: var(--colorPrimary);
+}
+
+.order_summary_checkbox .form-check-input:focus {
+    border-color: var(--borderColor);
+    box-shadow: none;
+}
+
+.checkout_order_summery .continew_btn {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.delivery_info_table {
+    margin-top: 25px;
+}
+
+.delivery_info_table .table {
+    margin: 0;
+}
+
+.delivery_info_table .table tr {
+    display: flex;
+}
+
+.delivery_info_table .table tr th {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--colorBlack);
+    text-transform: capitalize;
+    padding: 0px 0px 10px 0px !important;
+    border-bottom: none !important;
+}
+
+.delivery_info_table .table tr th,
+.delivery_info_table .table tr td {
+    padding: 10px 10px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid var(--borderColor) !important;
+}
+
+.delivery_info_table .table tr:last-child td {
+    border-bottom: none !important;
+}
+
+.delivery_info_table .name {
+    min-width: 130px;
+    width: 15%;
+}
+
+.delivery_info_table .adress {
+    min-width: 290px;
+    width: 35%;
+}
+
+.delivery_info_table .region {
+    min-width: 160px;
+    width: 25%;
+}
+
+.delivery_info_table .phone {
+    min-width: 120px;
+    width: 15%;
+}
+
+.delivery_info_table .action {
+    min-width: 80px;
+    width: 10%;
+    text-align: end;
+}
+
+.delivery_info_table .table tr td p {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--paraColor);
+    text-transform: capitalize;
+}
+
+.delivery_info_table .form-check-input {
+    padding: 0;
+    border-color: var(--colorBlack);
+    cursor: pointer;
+}
+
+.delivery_info_table .form-check-input:checked {
+    background-color: var(--colorPrimary);
+    border-color: var(--colorPrimary);
+}
+
+.delivery_info_table .form-check-input:focus {
+    border-color: var(--borderColor);
+    box-shadow: none;
+}
 
 
+.delivery_info_table_add_btn {
+    text-align: end;
+    margin-top: 40px;
+}
+
+/*====================================
+    CHECKOUT END
+====================================*/
+
+
+
+/*====================================
+    TEAM START
+====================================*/
+
+
+
+.team_founders_img {
+    margin-top: 30px;
+    height: 500px;
+    padding: 15px;
+    background: var(--colorWhite);
+    box-shadow: var(--boxShadow);
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.team_founders_img img {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+
+
+.team_founders_text {
+    margin-top: 30px;
+    background: var(--colorWhite);
+    box-shadow: var(--boxShadow);
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*====================================
+    TEAM END
+====================================*/
 
 
 
