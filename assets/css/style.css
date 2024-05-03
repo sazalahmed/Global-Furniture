@@ -987,6 +987,7 @@ button {
 
 
 /* banner start */
+
 .banner {
     height: 100vh;
 }
@@ -4457,8 +4458,140 @@ footer {
 ====================================*/
 
 
+/*====================================
+    DASHBOARD START
+====================================*/
+
+/* profile start */
 
 
+.dashboard_sidebar {
+    padding: 40px 20px;
+    background: var(--colorWhite);
+    box-shadow: var(--boxShadow);
+    overflow: hidden;
+    text-align: center;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+
+
+.dashboard_sidebar {}
+
+.dashboard_sidebar .img {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.dashboard_sidebar h4 {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 8px;
+}
+
+.dashboard_sidebar {}
+
+.dashboard_sidebar .points {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 3px 45px;
+    text-align: center;
+    display: inline-block;
+    text-transform: capitalize;
+    background: rgba(249, 73, 73, 0.15);
+    color: rgb(249, 73, 73) !important;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+
+.dashboard_sidebar .points i {
+    margin-right: 5px;
+}
+
+
+
+
+
+
+.dashboard_sidebar_menu {
+    text-align: start;
+    margin-top: 40px;
+}
+
+
+.dashboard_sidebar_menu {}
+
+.dashboard_sidebar_menu li {}
+
+.dashboard_sidebar_menu li a {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 0px;
+    color: #777777c7;
+    border-bottom: 1px solid var(--borderColor);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.dashboard_sidebar_menu li a i {
+    margin-right: 10px;
+}
+
+.dashboard_sidebar_menu li a {}
+
+
+.dashboard_sidebar_menu li:last-child a {
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.dashboard_sidebar_menu li a:hover,
+.dashboard_sidebar_menu li a.active {
+    color: var(--colorBlack);
+}
+
+
+
+
+
+
+/* profile end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* banner start */
+/* banner end */
+/*====================================
+    DASHBOARD END
+====================================*/
 
 
 
