@@ -379,6 +379,172 @@ $(function () {
         orientation: "vertical"
     };
 
+    // Product details slider
+    $('.slider-for2').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        dots: false,
+        fade: true,
+        asNavFor: '.slider-nav2'
+    });
+    $('.slider-nav2').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        asNavFor: '.slider-for2',
+        arrows: true,
+        dots: false,
+        centerMode: true,
+        centerPadding: '0px',
+        focusOnSelect: true,
+        nextArrow: '<i class="far fa-angle-right nextArrow"></i>',
+        prevArrow: '<i class="far fa-angle-left prevArrow"></i>',
+
+        // responsive: [
+        //     {
+        //         breakpoint: 1200,
+        //         settings: {
+        //             slidesToShow: 3,
+        //         }
+        //     },
+        //     {
+        //         breakpoint: 992,
+        //         settings: {
+        //             slidesToShow: 2,
+        //         }
+        //     },
+        //     {
+        //         breakpoint: 768,
+        //         settings: {
+        //             slidesToShow: 2,
+        //         }
+        //     },
+        //     {
+        //         breakpoint: 576,
+        //         settings: {
+        //             slidesToShow: 1,
+        //         }
+        //     }
+        // ]
+    });
+
+
+
+    // Details countdown
+    var d = new Date(),
+        countUpDate = new Date();
+    d.setDate(d.getDate() + 365);
+    // default example
+    simplyCountdown('.simply-countdown-one', {
+        year: d.getFullYear(),
+        month: d.getMonth() + 1,
+        day: d.getDate(),
+        enableUtc: true
+    });
+
+
+    // details payment slider
+    $('.details_payment_slider').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        dots: false,
+        arrows: false,
+
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
+    });
+
+
+    // Sticky sidebar
+    $("#sticky_sidebar").stickit({
+        top: 90,
+    })
+
+    // Sidebar show price & button
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 1100) {
+            if ($('.product_details_area').offset() != undefined) {
+                if (!$('.product_details_area').hasClass("show")) {
+                    $('.product_details_sidebar').addClass("show");
+                }
+            }
+        }
+        else {
+            if ($('.product_details_area').offset() != undefined) {
+                $('.product_details_sidebar').removeClass("show");
+            }
+        }
+    });
+
+
+    // Relate product slider
+    $('.related_product_slider').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        dots: true,
+        arrows: false,
+
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
+    });
+
+
+
+
+
+
 
 
 
