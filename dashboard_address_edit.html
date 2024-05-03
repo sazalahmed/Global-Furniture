@@ -1164,7 +1164,7 @@
                 <ul class="breadcrumb_item justify-content-center">
                     <li><a href="#">home</a></li>
                     <li><a href="#">dashborad</a></li>
-                    <li><a class="active">MY ACCOUNT</a></li>
+                    <li><a class="active">MY ADDRESS</a></li>
                 </ul>
             </div>
         </div>
@@ -1175,7 +1175,7 @@
 
 
     <!--=================================
-        DASHBOARD PROFILE START
+        DASHBOARD ADDRESS START
     ==================================-->
     <section class="user_dashborad mt_50">
         <div class="container">
@@ -1188,9 +1188,9 @@
                         <h4>harman aqurey</h4>
                         <a href="#" class="points"><i class="fal fa-redo"></i>check points</a>
                         <ul class="dashboard_sidebar_menu">
-                            <li><a href="#" class="active"><i class="fas fa-user-alt"></i>My Account</a></li>
+                            <li><a href="#"><i class="fas fa-user-alt"></i>My Account</a></li>
                             <li><a href="#"><i class="fas fa-user-shield"></i>My Security</a></li>
-                            <li><a href="#"><i class="fas fa-map-marker-alt"></i>Address Book</a></li>
+                            <li><a href="#" class="active"><i class="fas fa-map-marker-alt"></i>Address Book</a></li>
                             <li><a href="#"><i class="fas fa-bags-shopping"></i>My Order</a></li>
                             <li><a href="#"><i class="fas fa-heart"></i>Wishlist</a></li>
                             <li><a href="#"><i class="fas fa-coins"></i>My Points</a></li>
@@ -1201,25 +1201,103 @@
                 <div class="col-xl-9">
                     <div class="dashboard_right_contant">
                         <div class="dashboard_right_heading">
-                            <h4>Basic Information</h4>
-                            <a href="dashboard_profile_edit.html" class="common_btn"><i class="far fa-edit"></i>edit</a>
+                            <h4>address change</h4>
+                            <a href="dashboard_address.html" class="common_btn">Cancel</a>
                         </div>
-                        <ul class="dash_profile_info">
-                            <li><span>Full Name</span>: harman aqurey</li>
-                            <li><span>Contact Number</span>: +945735376 456</li>
-                            <li><span>Gender</span>: female</li>
-                            <li><span>Date Of Birth</span>: 12 june 1984</li>
-                            <li><span>Member Since</span>: 28 Apr 2024</li>
-                            <li><span>Organization</span>: united state</li>
-                            <li><span>Occupation</span>: business person</li>
-                        </ul>
+                        <form action="#" class="dash_address_edit_form">
+                            <div class="row">
+                                <div class="col-xl-6">
+                                    <div class="dash_profile_edit_inputbox">
+                                        <label>Name *</label>
+                                        <input type="text" placeholder="Your Name">
+                                    </div>
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="dash_profile_edit_inputbox">
+                                        <label>Phone Number *</label>
+                                        <input type="text" placeholder="Phone Number">
+                                    </div>
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="dash_profile_edit_inputbox">
+                                        <label>Region *</label>
+                                        <select class="select_2" name="state">
+                                            <option value="">Select Region</option>
+                                            <option value="">united state</option>
+                                            <option value="">bagladesh</option>
+                                            <option value="">souidi arabia</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="dash_profile_edit_inputbox">
+                                        <label>City *</label>
+                                        <select class="select_2" name="state">
+                                            <option value="">Select City</option>
+                                            <option value="">dhaka</option>
+                                            <option value="">new york</option>
+                                            <option value="">ockland</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-xl-12">
+                                    <div class="select_delivery">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="selected"
+                                                id="shipping_select_corier" value="1">
+                                            <label class="form-check-label" for="shipping_select_corier">
+                                                Courier
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="selected"
+                                                id="shipping_select_home_delivery" value="2">
+                                            <label class="form-check-label" for="shipping_select_home_delivery">
+                                                Home Delivery
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="dash_profile_edit_inputbox">
+                                        <label>Area *</label>
+                                        <select class="select_2" name="state">
+                                            <option value="">Select Area*</option>
+                                            <option value="">bakergonj</option>
+                                            <option value="">nowakhali</option>
+                                            <option value="">chorfassion</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="dash_profile_edit_inputbox">
+                                        <label>Address *</label>
+                                        <input type="text" placeholder="Example: Street#123, Road-11, Dhaka-1216">
+                                    </div>
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="dash_profile_edit_inputbox">
+                                        <label>Select A Label For Effective Delivery</label>
+                                        <ul>
+                                            <li><a href="#"><i class="fas fa-home-lg-alt"></i>Shipping</a></li>
+                                            <li><a href="#"><i class="fas fa-briefcase"></i>Billing</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="dash_address_edit_inputbox_btn">
+                                        <button type="submit" class="common_btn">Submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!--=================================
-        DASHBOARD PROFILE END
+        DASHBOARD ADDRESS END
     ==================================-->
 
 

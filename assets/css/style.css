@@ -3599,8 +3599,10 @@ footer {
 
 .select_delivery .form-check-input {
     padding: 0;
-    width: 20px;
-    height: 20px;
+    width: 17px;
+    height: 17px;
+    position: relative;
+    top: -1px;
 }
 
 .select_delivery .form-check-input:focus {
@@ -3609,7 +3611,7 @@ footer {
 }
 
 .select_delivery .form-check-label {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     text-transform: capitalize;
     margin-left: 10px;
@@ -5168,11 +5170,11 @@ footer {
     DASHBOARD START
 ====================================*/
 
-/* profile start */
-
+/* sidebar menu start */
 
 .dashboard_sidebar {
-    padding: 40px 20px;
+    height: 100%;
+    padding: 25px 20px 35px 20px;
     background: var(--colorWhite);
     box-shadow: var(--boxShadow);
     overflow: hidden;
@@ -5183,10 +5185,6 @@ footer {
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
 }
-
-
-
-.dashboard_sidebar {}
 
 .dashboard_sidebar .img {
     width: 80px;
@@ -5201,8 +5199,6 @@ footer {
     text-transform: capitalize;
     margin-top: 8px;
 }
-
-.dashboard_sidebar {}
 
 .dashboard_sidebar .points {
     font-size: 14px;
@@ -5221,20 +5217,10 @@ footer {
     margin-right: 5px;
 }
 
-
-
-
-
-
 .dashboard_sidebar_menu {
     text-align: start;
-    margin-top: 40px;
+    margin-top: 35px;
 }
-
-
-.dashboard_sidebar_menu {}
-
-.dashboard_sidebar_menu li {}
 
 .dashboard_sidebar_menu li a {
     display: block;
@@ -5254,9 +5240,6 @@ footer {
     margin-right: 10px;
 }
 
-.dashboard_sidebar_menu li a {}
-
-
 .dashboard_sidebar_menu li:last-child a {
     padding-bottom: 0;
     border-bottom: none;
@@ -5267,12 +5250,391 @@ footer {
     color: var(--colorBlack);
 }
 
+/* sidebar menu end */
 
 
+/* profile start */
 
+.dashboard_right_contant {
+    height: 100%;
+    padding: 30px 25px 35px 25px;
+    background: var(--colorWhite);
+    box-shadow: var(--boxShadow);
+    overflow: hidden;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
 
+.dashboard_right_heading {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--borderColor);
+}
+
+.dashboard_right_heading h4 {
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: normal;
+}
+
+.dashboard_right_heading .common_btn {
+    padding: 7px 18px;
+}
+
+.dashboard_right_heading .common_btn i {
+    margin-right: 5px;
+}
+
+.dash_profile_info {
+    margin-top: 52px;
+}
+
+.dash_profile_info li {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: var(--paraColor);
+}
+
+.dash_profile_info li span {
+    width: 230px;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    display: inline-block;
+    color: var(--colorBlack);
+}
 
 /* profile end */
+
+
+/* profile edit start */
+
+.dash_profile_edit {
+    margin-top: 25px;
+}
+
+.dash_profile_edit_inputbox label {
+    margin-top: 18px;
+}
+
+.dash_profile_edit_inputbox input {
+    margin-top: 10px;
+}
+
+.dash_profile_edit_inputbox .select2-container--default .select2-selection--single {
+    margin-top: 10px;
+}
+
+.dash_profile_edit_inputbox .select2-container--default .select2-selection--single .select2-selection__arrow b {
+    margin-top: 16px;
+    right: 20px;
+}
+
+.dash_profile_edit_inputbox_2 input {
+    padding: 9px 20px;
+}
+
+.dash_profile_edit_inputbox_btn {
+    margin-top: 25px;
+}
+
+/* profile edit end */
+
+
+/* my address start */
+
+
+.dash_address_table .table {
+    margin: 0;
+    border-bottom: 1px solid var(--borderColor);
+}
+
+.dash_address_table .table tr {
+    display: flex;
+}
+
+.dash_address_table .table tr th {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--colorBlack);
+    text-transform: capitalize;
+    padding: 0px 0px 10px 0px !important;
+    border-bottom: none !important;
+}
+
+.dash_address_table .table tr th,
+.dash_address_table .table tr td {
+    padding: 10px 10px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid var(--borderColor) !important;
+}
+
+.dash_address_table .table tr:last-child td {
+    padding: 10px 0px 10px 0px;
+    border-bottom: none !important;
+}
+
+.dash_address_table .table tr td:last-child {
+    padding: 10px 0px 10px 0px;
+}
+
+.dash_address_table .name {
+    min-width: 130px;
+    width: 15%;
+}
+
+.dash_address_table .adress {
+    min-width: 290px;
+    width: 35%;
+}
+
+.dash_address_table .region {
+    min-width: 160px;
+    width: 27%;
+}
+
+.dash_address_table .phone {
+    min-width: 120px;
+    width: 15%;
+}
+
+.dash_address_table .action {
+    min-width: 80px;
+    width: 8%;
+    text-align: end;
+}
+
+.dash_address_table .table tr td p {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--paraColor);
+    text-transform: capitalize;
+}
+
+.dash_address_table .adress span {
+    font-size: 11px;
+    font-weight: 500;
+    padding: 2px 5px 5px 7px;
+    border-radius: 5px;
+    margin-right: 5px;
+    background: rgba(249, 73, 73, 0.15) !important;
+    color: rgb(249, 73, 73);
+}
+
+.dashboard_right_contant .action a {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    padding: 3px 5px;
+    text-transform: capitalize;
+    color: var(--colorBlack);
+    border-radius: 6px;
+    border: 1px solid var(--borderColor);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.dashboard_right_contant .action a i {
+    margin-right: 3px;
+}
+
+.dashboard_right_contant .action a:hover {
+    color: var(--colorPrimary);
+    border-color: var(--colorPrimary);
+}
+
+.dash_address_table_btn {
+    text-align: end;
+    margin-top: 40px;
+}
+
+/* my address end */
+
+
+/* my address edit start */
+
+.dash_address_edit_form .select_delivery {
+    margin-top: 25px;
+}
+
+.dash_profile_edit_inputbox ul {
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dash_profile_edit_inputbox ul li {
+    margin-top: 10px;
+}
+
+.dash_profile_edit_inputbox ul li a {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 7px 25px 10px 25px;
+    background: rgba(237, 27, 53, 0.3);
+    color: var(--colorBlack);
+    border-radius: 5px;
+}
+
+.dash_profile_edit_inputbox ul li a i {
+    margin-right: 10px;
+}
+
+.dash_address_edit_inputbox_btn {
+    margin-top: 50px;
+}
+
+.dash_address_edit_inputbox_btn .common_btn {
+    width: 100%;
+}
+
+/* my address edit end */
+
+
+
+/* order start */
+
+.dash_order_table {
+    margin-top: 52px;
+}
+
+.dash_order_table .table {
+    margin: 0;
+    border-bottom: 1px solid var(--borderColor);
+}
+
+.dash_order_table .table tr {
+    display: flex;
+}
+
+.dash_order_table .table tr th {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--colorBlack);
+    text-transform: uppercase;
+    padding: 0px 0px 10px 0px !important;
+    border-bottom: none !important;
+}
+
+.dash_order_table .table tr th,
+.dash_order_table .table tr td {
+    padding: 10px 10px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid var(--borderColor) !important;
+}
+
+.dash_order_table .table tr:last-child td {
+    padding: 10px 10px 10px 0px;
+    border-bottom: none !important;
+}
+
+.dash_order_table .table tr td:last-child {
+    padding: 10px 0px 10px 0px;
+}
+
+.dash_order_table .order {
+    min-width: 160px;
+    width: 15%;
+}
+
+.dash_order_table .details {
+    min-width: 180px;
+    width: 22%;
+}
+
+.dash_order_table .date {
+    min-width: 140px;
+    width: 20%;
+}
+
+.dash_order_table .amount {
+    min-width: 140px;
+    width: 18%;
+}
+
+.dash_order_table .payment {
+    min-width: 120px;
+    width: 17%;
+}
+
+.dash_order_table .status {
+    min-width: 80px;
+    width: 8%;
+    text-align: end;
+}
+
+.dash_order_table .order a {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--colorPrimary);
+}
+
+.dash_order_table .order .img {
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+    overflow: hidden;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.dash_order_table .table tr td p {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.dash_order_table .table tr td span {
+    width: 75px;
+    font-size: 15px;
+    font-weight: 500;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    background: rgba(249, 73, 73, 0.15) !important;
+    color: var(--colorPrimary);
+}
+
+/* order end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
