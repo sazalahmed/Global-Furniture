@@ -1164,7 +1164,7 @@
                 <ul class="breadcrumb_item justify-content-center">
                     <li><a href="#">home</a></li>
                     <li><a href="#">dashborad</a></li>
-                    <li><a class="active">MY ACCOUNT</a></li>
+                    <li><a class="active">MY ORDER</a></li>
                 </ul>
             </div>
         </div>
@@ -1175,7 +1175,7 @@
 
 
     <!--=================================
-        DASHBOARD PROFILE START
+        DASHBOARD ORDER CANCEL START
     ==================================-->
     <section class="user_dashborad mt_45">
         <div class="container">
@@ -1188,12 +1188,13 @@
                         <h4>harman aqurey</h4>
                         <a href="#" class="points"><i class="fal fa-redo"></i>check points</a>
                         <ul class="dashboard_sidebar_menu">
-                            <li><a href="dashboard_profile.html" class="active"><i class="fas fa-user-alt"></i>My
+                            <li><a href="dashboard_profile.html"><i class="fas fa-user-alt"></i>My
                                     Account</a></li>
                             <li><a href="dashboard_security.html"><i class="fas fa-user-shield"></i>My Security</a></li>
                             <li><a href="dashboard_address.html"><i class="fas fa-map-marker-alt"></i>Address Book</a>
                             </li>
-                            <li><a href="dashboard_order.html"><i class="fas fa-bags-shopping"></i>My Order</a></li>
+                            <li><a href="dashboard_order.html" class="active"><i class="fas fa-bags-shopping"></i>My
+                                    Order</a></li>
                             <li><a href="dashboard_wishlist.html"><i class="fas fa-heart"></i>Wishlist</a></li>
                             <li><a href="#"><i class="far fa-sign-out"></i>Logout</a></li>
                         </ul>
@@ -1201,26 +1202,74 @@
                 </div>
                 <div class="col-xl-9">
                     <div class="dashboard_right_contant">
-                        <div class="dashboard_right_heading">
-                            <h4>Basic Information</h4>
-                            <a href="dashboard_profile_edit.html" class="common_btn"><i class="far fa-edit"></i>edit</a>
+                        <div class="dashboard_order_cancel">
+                            <h4>request cancellation</h4>
+                            <p>choose the item (s) you want to cancel</p>
                         </div>
-                        <ul class="dash_profile_info">
-                            <li><span>Full Name</span>: harman aqurey</li>
-                            <li><span>Contact Number</span>: +945735376 456</li>
-                            <li><span>Gender</span>: female</li>
-                            <li><span>Date Of Birth</span>: 12 june 1984</li>
-                            <li><span>Member Since</span>: 28 Apr 2024</li>
-                            <li><span>Organization</span>: united state</li>
-                            <li><span>Occupation</span>: business person</li>
-                        </ul>
+                        <div class="dash_order_cancel_table">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="table-responsive">
+                                        <table class="table">
+                                            <tbody>
+                                                <tr>
+                                                    <td class="image">
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value=""
+                                                                id="defaultCheck1">
+                                                        </div>
+                                                        <div class="img">
+                                                            <img src="assets/images/cart_img_1.jpg" alt="cart"
+                                                                class="img-fluid w-100">
+                                                        </div>
+                                                    </td>
+                                                    <td class="name">
+                                                        <p>GLOBAL Manager Chair, Eiffel Pro GMC-005</p>
+                                                    </td>
+                                                    <td class="details">
+                                                        <p>Color: Black, Size: Standard</p>
+                                                    </td>
+                                                    <td class="quantity">
+                                                        <h6>Qty: 01</h6>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dash_order_cancel_policy">
+                            <h6>cancellation policy</h6>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, quaerat.</p>
+                            <ul>
+                                <li>1. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error fugit enim
+                                    aliquid.
+                                </li>
+                                <li>2. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error fugit enim
+                                    aliquid.
+                                </li>
+                                <li>3. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error fugit enim
+                                    aliquid.
+                                </li>
+                            </ul>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                                <label class="form-check-label ml-2" for="defaultCheck2">
+                                    By continuing, I accept the Terms and conditions</a>.
+                                </label>
+                            </div>
+                        </div>
+                        <div class="dashboard_order_cancel_confirm_btn">
+                            <a href="dashboard_order_cancel_confirm.html" class="common_btn">confirm</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!--=================================
-        DASHBOARD PROFILE END
+        DASHBOARD ORDER CANCEL END
     ==================================-->
 
 

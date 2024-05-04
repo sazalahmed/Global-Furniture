@@ -1164,7 +1164,7 @@
                 <ul class="breadcrumb_item justify-content-center">
                     <li><a href="#">home</a></li>
                     <li><a href="#">dashborad</a></li>
-                    <li><a class="active">MY ACCOUNT</a></li>
+                    <li><a class="active">MY ORDER</a></li>
                 </ul>
             </div>
         </div>
@@ -1175,7 +1175,7 @@
 
 
     <!--=================================
-        DASHBOARD PROFILE START
+        DASHBOARD ORDER TRACKING START
     ==================================-->
     <section class="user_dashborad mt_45">
         <div class="container">
@@ -1188,12 +1188,13 @@
                         <h4>harman aqurey</h4>
                         <a href="#" class="points"><i class="fal fa-redo"></i>check points</a>
                         <ul class="dashboard_sidebar_menu">
-                            <li><a href="dashboard_profile.html" class="active"><i class="fas fa-user-alt"></i>My
+                            <li><a href="dashboard_profile.html"><i class="fas fa-user-alt"></i>My
                                     Account</a></li>
                             <li><a href="dashboard_security.html"><i class="fas fa-user-shield"></i>My Security</a></li>
                             <li><a href="dashboard_address.html"><i class="fas fa-map-marker-alt"></i>Address Book</a>
                             </li>
-                            <li><a href="dashboard_order.html"><i class="fas fa-bags-shopping"></i>My Order</a></li>
+                            <li><a href="dashboard_order.html" class="active"><i class="fas fa-bags-shopping"></i>My
+                                    Order</a></li>
                             <li><a href="dashboard_wishlist.html"><i class="fas fa-heart"></i>Wishlist</a></li>
                             <li><a href="#"><i class="far fa-sign-out"></i>Logout</a></li>
                         </ul>
@@ -1202,25 +1203,126 @@
                 <div class="col-xl-9">
                     <div class="dashboard_right_contant">
                         <div class="dashboard_right_heading">
-                            <h4>Basic Information</h4>
-                            <a href="dashboard_profile_edit.html" class="common_btn"><i class="far fa-edit"></i>edit</a>
+                            <h4>order details</h4>
                         </div>
-                        <ul class="dash_profile_info">
-                            <li><span>Full Name</span>: harman aqurey</li>
-                            <li><span>Contact Number</span>: +945735376 456</li>
-                            <li><span>Gender</span>: female</li>
-                            <li><span>Date Of Birth</span>: 12 june 1984</li>
-                            <li><span>Member Since</span>: 28 Apr 2024</li>
-                            <li><span>Organization</span>: united state</li>
-                            <li><span>Occupation</span>: business person</li>
+                        <div class="dash_order_details">
+                            <div class="dash_order_id">
+                                <h6>Order #1275992590</h6>
+                                <p>Placed On: 28 Apr 24 08:10:56</p>
+                            </div>
+                            <h6>Total: ৳ 23,500.00</h6>
+                        </div>
+                        <div class="dashboard_right_heading mt_40">
+                            <h4>Package-01</h4>
+                            <a href="dashboard_order_cancel.html" class="common_btn">Cancel</a>
+                        </div>
+                        <p class="est_delevery">Estimate Delivery On 05 May 2024</p>
+                        <ul class="order_tracking_line">
+                            <li class="active">
+                                <span><i class="far fa-recycle fa-fw"></i></span>
+                                <p>Pending</p>
+                            </li>
+                            <li class="active">
+                                <span><i class="far fa-recycle fa-fw"></i></span>
+                                <p>Processing</p>
+                            </li>
+                            <li>
+                                <span><i class="fas fa-truck-monster"></i></span>
+                                <p>Shipped</p>
+                            </li>
+                            <li>
+                                <span><i class="far fa-check"></i></span>
+                                <p>Delivered</p>
+                            </li>
+                            <li>
+                                <span><i class="far fa-check"></i></span>
+                                <p>Return</p>
+                            </li>
+                            <li>
+                                <span><i class="far fa-check"></i></span>
+                                <p>Refund</p>
+                            </li>
                         </ul>
+                        <div class="order_confirmation">
+                            <p>28 Apr 2024 - 08:10 PM <span>Thank You For Shopping At Global! Your Order Is Waiting For
+                                    Confirmation.</span></p>
+                        </div>
+                        <div class="order_product_details">
+                            <div class="order_product_details_left">
+                                <div class="img">
+                                    <img src="assets/images/cart_img_1.jpg" alt="cart" class="img-fluid w-100">
+                                </div>
+                                <div class="img_text">
+                                    <p>GLOBAL Director Chair, Luxury GDC-021</p>
+                                    <span>Color: Black , Size: Standard</span>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <h5>৳23,000.00</h5>
+                                <h6>Qty: 1</h6>
+                            </div>
+                        </div>
+                        <div class="dash_order_tracking_table">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="table-responsive">
+                                        <table class="table">
+                                            <tbody>
+                                                <tr>
+                                                    <td class="name">
+                                                        <p>Harman Aqurey</p>
+                                                    </td>
+                                                    <td class="address">
+                                                        <p><span>Billing</span>new york</p>
+                                                    </td>
+                                                    <td class="region">
+                                                        <p>united state</p>
+                                                    </td>
+                                                    <td class="phone">
+                                                        <p>038756836477</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="name">
+                                                        <p>Harman Aqurey</p>
+                                                    </td>
+                                                    <td class="address">
+                                                        <p>new york</p>
+                                                    </td>
+                                                    <td class="region">
+                                                        <p>united state</p>
+                                                    </td>
+                                                    <td class="phone">
+                                                        <p>038756836477</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="name">
+                                                        <p>Harman Aqurey</p>
+                                                    </td>
+                                                    <td class="address">
+                                                        <p><span>shiping</span>new york</p>
+                                                    </td>
+                                                    <td class="region">
+                                                        <p>united state</p>
+                                                    </td>
+                                                    <td class="phone">
+                                                        <p>038756836477</p>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!--=================================
-        DASHBOARD PROFILE END
+        DASHBOARD ORDER TRACKING END
     ==================================-->
 
 

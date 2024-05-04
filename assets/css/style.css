@@ -5167,6 +5167,46 @@ footer {
 
 
 /*====================================
+    BE_FRANTHISE START
+====================================*/
+
+.be_franthise {
+    padding: 30px 30px 25px 30px;
+    background: var(--colorWhite);
+    box-shadow: var(--boxShadow);
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.be_franthise_item {
+    text-align: center;
+    padding: 15px 20px 19px 20px;
+    border-radius: 5px;
+    border: 1px solid var(--borderColor);
+}
+
+.be_franthise_item span {
+    font-size: 35px;
+    display: inline-block;
+    color: #fc5d71;
+}
+
+.be_franthise .note {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+/*====================================
+    BE_FRANTHISE END
+====================================*/
+
+
+/*====================================
     DASHBOARD START
 ====================================*/
 
@@ -5620,46 +5660,615 @@ footer {
 
 
 
+/* order tracking start */
+
+.dash_order_details {
+    position: relative;
+    padding: 15px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dash_order_details h6 {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.dash_order_id p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.dash_order_details::after {
+    position: absolute;
+    content: "";
+    bottom: -10px;
+    left: -26px;
+    width: 108%;
+    height: 10px;
+    background: var(--borderColor);
+}
+
+.est_delevery {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.order_tracking_line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+.order_tracking_line li {
+    text-align: center;
+    position: relative;
+    width: 150px;
+}
+
+.order_tracking_line li::after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    left: -55px;
+    width: 110px;
+    height: 3px;
+    background-color: rgb(247, 190, 22);
+}
+
+.order_tracking_line li:first-child:after {
+    display: none;
+}
+
+.order_tracking_line li p {
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+.order_tracking_line li span {
+    display: block;
+    position: relative;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    border: 0px solid #AFAFAF;
+    background-color: #f7be16;
+    color: var(--colorWhite);
+    margin: 0 auto;
+}
+
+.order_tracking_line .active span {
+    background: rgb(109, 160, 84);
+}
+
+.order_tracking_line .active p {
+    color: var(--colorBlack);
+}
+
+.order_tracking_line .active::after {
+    background: rgb(109, 160, 84);
+}
+
+.order_confirmation {
+    position: relative;
+    margin-top: 40px;
+    padding: 20px;
+    background: #F1F1F1;
+}
+
+.order_confirmation span {
+    font-weight: 500;
+    color: var(--colorBlack);
+}
+
+.order_confirmation::after {
+    position: absolute;
+    content: "";
+    height: 30px;
+    width: 30px;
+    top: -9px;
+    right: 13%;
+    background: #F1F1F1;
+    transform: rotate(45deg);
+}
+
+.order_product_details {
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px 10px 10px;
+    border: 1px solid var(--borderColor);
+    border-radius: 5px;
+}
+
+.order_product_details_left {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.order_product_details_left .img {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.order_product_details_left .img_text {
+    width: 75%;
+    margin-left: 20px;
+}
+
+.order_product_details_left .img_text p {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.order_product_details_left .img_text span {
+    font-size: 15px;
+}
+
+.order_product_details .text {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.order_product_details .text h5 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 40px;
+}
+
+.order_product_details .text h6 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.dash_order_tracking_table {
+    margin-top: 25px;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid var(--borderColor);
+}
+
+.dash_order_tracking_table .table {
+    margin: 0;
+}
+
+.dash_order_tracking_table .table tr {
+    display: flex;
+}
+
+.dash_order_tracking_table .table tr td {
+    padding: 8px 10px 8px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: none;
+}
+
+.dash_order_tracking_table .table tr:last-child td {
+    padding: 10px 10px 10px 0px;
+    border-bottom: none !important;
+}
+
+.dash_order_tracking_table .table tr td:last-child {
+    padding: 10px 0px 10px 0px;
+}
+
+.dash_order_tracking_table .name {
+    min-width: 160px;
+    width: 20%;
+}
+
+.dash_order_tracking_table .address {
+    min-width: 220px;
+    width: 25%;
+}
+
+.dash_order_tracking_table .region {
+    min-width: 300px;
+    width: 35%;
+}
+
+.dash_order_tracking_table .phone {
+    min-width: 140px;
+    width: 20%;
+}
+
+.dash_order_tracking_table .table tr td p {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: var(--colorBlack);
+}
+
+.dash_order_tracking_table .table tr td span {
+    margin-right: 5px;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 18px;
+    padding: 0px 5px;
+    border-radius: 3px;
+    text-transform: capitalize;
+    color: var(--colorPrimary);
+    background: rgba(249, 73, 73, 0.15) !important;
+}
+
+/* order tracking end */
+
+
+/* order cancel start */
+
+.dashboard_order_cancel h4 {
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: normal;
+}
+
+.dashboard_order_cancel p {
+    margin-top: 30px;
+    text-transform: capitalize;
+}
+
+.dash_order_cancel_table {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: 1px solid var(--borderColor);
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.dash_order_cancel_table .table {
+    margin: 0;
+}
+
+.dash_order_cancel_table .table tr {
+    display: flex;
+}
+
+.dash_order_cancel_table .table tr td {
+    padding: 10px 10px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid var(--borderColor) !important;
+}
+
+.dash_order_cancel_table .table tr:last-child td {
+    padding: 10px 10px 10px 0px;
+    border-bottom: none !important;
+}
+
+.dash_order_cancel_table .table tr td:last-child {
+    padding: 10px 0px 10px 0px;
+}
+
+.dash_order_cancel_table .image {
+    min-width: 140px;
+    width: 15%;
+    position: relative;
+}
+
+.dash_order_cancel_table .name {
+    min-width: 300px;
+    width: 45%;
+}
+
+.dash_order_cancel_table .details {
+    min-width: 180px;
+    width: 30%;
+}
+
+
+.dash_order_cancel_table .quantity {
+    min-width: 80px;
+    width: 10%;
+    text-align: end;
+}
+
+.dash_order_cancel_table .image .img {
+    width: 80px;
+    height: 80px;
+    margin-left: 35px;
+    overflow: hidden;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.dash_order_cancel_table .form-check {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.dash_order_cancel_table .form-check-input {
+    padding: 0;
+}
+
+.dash_order_cancel_table p {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--colorBlack);
+    text-transform: capitalize;
+}
+
+.dash_order_cancel_table h6 {
+    font-weight: 600;
+}
+
+.dash_order_cancel_policy {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid var(--borderColor);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.dash_order_cancel_policy h6 {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: normal;
+}
+
+.dash_order_cancel_policy p {
+    margin-top: 15px;
+    font-weight: 500;
+    color: var(--colorBlack);
+}
+
+.dash_order_cancel_policy ul li {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--colorBlack);
+    margin-top: 8px;
+}
+
+.dash_order_cancel_policy .form-check {
+    margin-top: 14px;
+}
+
+.dash_order_cancel_policy .form-check-input {
+    padding: 0;
+    margin-top: 5px;
+}
+
+.dash_order_cancel_policy .form-check-label {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.dashboard_order_cancel_confirm_btn {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* order cancel end */
 
 
 
+/* order cancel confirm start */
+
+.dashboard_order_cancel_cnf {
+    text-align: center;
+}
+
+.dashboard_order_cancel_cnf span {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    line-height: 60px;
+    color: var(--colorWhite);
+    background: #ffa500a8;
+    border-radius: 50%;
+}
+
+.dashboard_order_cancel_cnf h4 {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 28px;
+}
+
+.dashboard_order_cancel_cnf .common_btn {
+    margin-top: 28px;
+}
+
+/* order cancel confirm end */
 
 
+/* wishlist start */
 
+.dashboard_wislist_deleted {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px 20px;
+    background: var(--colorWhite);
+    box-shadow: var(--boxShadow);
+    overflow: hidden;
+    border-radius: 10px;
+}
 
+.dashboard_wislist_deleted .form-check-input {
+    padding: 0;
+}
 
+.dashboard_wislist_deleted .form-check-label {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--paraColor);
+}
 
+.dashboard_wislist_deleted a {
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--colorPrimary);
+    text-transform: uppercase;
+}
 
+.dashboard_wislist_deleted a i {
+    margin-right: 8px;
+}
 
+.dash_wislist_table {
+    margin-top: 20px;
+    padding: 35px 40px;
+    background: var(--colorWhite);
+    box-shadow: var(--boxShadow);
+    overflow: hidden;
+    border-radius: 10px;
+}
 
+.dash_wislist_table .table {
+    margin: 0px;
+}
 
+.dash_wislist_table .table tr {
+    display: flex;
+}
 
+.dash_wislist_table .table tr th {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--colorBlack);
+    text-transform: uppercase;
+    padding: 0px 0px 10px !important;
+    border-bottom: none !important;
+}
 
+.dash_wislist_table .table tr th,
+.dash_wislist_table .table tr td {
+    padding: 20px 10px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid var(--borderColor) !important;
+}
 
+.dash_wislist_table .table tr:last-child td {
+    border-bottom: none !important;
+}
 
+.dash_wislist_table .image {
+    min-width: 160px;
+    width: 20%;
+    position: relative;
+}
 
+.dash_wislist_table .details {
+    min-width: 300px;
+    width: 50%;
+}
 
+.dash_wislist_table .price {
+    min-width: 120px;
+    width: 15%;
+}
 
+.dash_wislist_table .action {
+    min-width: 100px;
+    width: 15%;
+    text-align: end;
+}
 
+.dash_wislist_table .image .form-check {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+}
 
+.dash_wislist_table .image .form-check-input {
+    padding: 0px;
+}
 
+.dash_wislist_table .image .img {
+    width: 110px;
+    height: 80px;
+    margin-left: 25px;
+    overflow: hidden;
+    border-radius: 3px;
+}
 
+.dash_wislist_table .details a {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--colorBlack);
+    text-transform: capitalize;
+    transition: all 0.3s linear 0s;
+}
 
+.dash_wislist_table .details a:hover {
+    color: var(--colorPrimary);
+}
 
+.dash_wislist_table .details p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 3px;
+    color: var(--colorBlack);
+}
 
+.dash_wislist_table .subtotal h6 {
+    font-size: 18px;
+    font-weight: 600;
+}
 
+.dash_wislist_table .action ul {
+    gap: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
 
+.dash_wislist_table .action ul li a {
+    font-size: 18px;
+    color: var(--colorPrimary);
+}
 
+.dash_wislist_table .action ul li:first-child a {
+    color: var(--colorGreen);
+}
 
+/* wishlist end */
 
-
-
-
-/* banner start */
-/* banner end */
 /*====================================
     DASHBOARD END
 ====================================*/
+
+
+
 
 
 
@@ -5685,6 +6294,9 @@ footer {
     START
 ====================================*/
 
+
+/* banner start */
+/* banner end */
 /*====================================
     END
 ====================================*/
