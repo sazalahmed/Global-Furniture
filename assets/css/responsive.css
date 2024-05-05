@@ -1,23 +1,349 @@
-@media (min-width: 1200px) and (max-width: 1399.99px) {}
+@media (min-width: 1600px) and (max-width: 1800px) {
+
+    /* HOME PAGE START */
+    .category_img {
+        height: 325px;
+    }
+
+    .category_img p {
+        padding: 40px;
+    }
+
+    .add_banner_item {
+        height: 750px;
+    }
+
+    .favourite_product_item .img {
+        height: 255px;
+    }
+
+    .category_3_small_item {
+        height: 370px;
+    }
+
+    .category_3_large_item {
+        height: 765px;
+    }
+
+    .single_product_thumb {
+        height: 650px;
+    }
+
+    .showcase_small_item {
+        height: 375px;
+    }
+
+    .showcase_large_item {
+        height: 780px;
+    }
+
+    .single_testimonial .text {
+        width: 100%;
+    }
+
+    .imei_img {
+        height: 675px;
+    }
+
+    .founder_testimonial_img {
+        height: 670px;
+    }
+
+    /* HOME PAGE END */
 
 
 
-@media (min-width: 992px) and (max-width: 1199.99px) {}
+
+
+}
 
 
 
-@media (min-width: 768px) and (max-width: 991.99px) {}
+@media (min-width: 1400px) and (max-width: 1599.99px) {
+
+    /* HOME PAGE START */
+    .main_menu .navbar-nav .nav-item .nav-link {
+        padding: 0px 15px;
+    }
+
+    .category_img {
+        height: 280px;
+    }
+
+    .category_img p {
+        padding: 35px;
+    }
+
+    .section_heading {
+        font-size: 54px;
+    }
+
+    .categories_text {
+        padding-right: 30px;
+    }
+
+    .add_banner_item {
+        height: 655px;
+    }
+
+    .favourite_product_item .img {
+        height: 220px;
+    }
+
+    .category_3_small_item {
+        height: 320px;
+    }
+
+    .category_3_large_item {
+        height: 665px;
+    }
+
+    .single_product_thumb {
+        height: 780px;
+    }
+
+    .single_product_small .text a {
+        font-size: 14px;
+    }
+
+    .single_product_banner_text p {
+        padding-left: 0;
+    }
+
+    .showcase_small_item {
+        height: 325px;
+    }
+
+    .showcase_large_item {
+        height: 682px;
+    }
+
+    .single_testimonial .text {
+        width: 100%;
+    }
+
+    .imei_img {
+        height: 590px;
+    }
+
+    .founder_testimonial_img {
+        height: 590px;
+    }
+
+    .footer_logo_area ul li a,
+    .footer_logo_area ul li p {
+        max-width: 90%;
+    }
+
+    /* HOME PAGE END */
 
 
 
-@media (min-width: 576px) and (max-width: 767.99px) {}
 
 
 
-@media (max-width: 575.99px) {
 
 
 
+
+
+}
+
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+
+    /* HOME PAGE START */
+    .main_menu {
+        padding: 0 25px;
+    }
+
+    .main_menu .navbar-brand {
+        width: 130px;
+    }
+
+    .main_menu .navbar-nav .nav-item .nav-link {
+        padding: 0px 10px;
+        font-size: 15px;
+    }
+
+    .category_img {
+        height: 235px;
+    }
+
+    .categories_text {
+        padding-right: 20px;
+    }
+
+    .section_heading {
+        font-size: 56px;
+    }
+
+    .add_banner_item {
+        height: 560px;
+    }
+
+    .favourite_product_item .img {
+        height: 185px;
+    }
+
+    .category_3_small_item {
+        height: 270px;
+    }
+
+    .category_3_large_item {
+        height: 565px;
+    }
+
+    .single_product_banner_text {
+        padding-right: 20px;
+        padding-left: 30px;
+    }
+
+    .single_product_banner_text p {
+        padding-left: 70px;
+    }
+
+    .showcase_small_item {
+        height: 275px;
+    }
+
+    .showcase_large_item {
+        height: 580px;
+    }
+
+    .imei_img {
+        height: 500px;
+    }
+
+    .founder_testimonial_img {
+        height: 500px;
+    }
+
+    .footer_link ul li a {
+        font-size: 14px;
+    }
+
+    .footer_logo_area ul li a,
+    .footer_logo_area ul li p {
+        font-size: 14px;
+        max-width: 100%;
+    }
+
+    .payment_logo {
+        margin-top: 10px;
+    }
+
+    .categories_text p {
+        font-size: 20px;
+    }
+
+    /* HOME PAGE END */
+
+
+
+
+
+
+
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+
+
+    /* HOME PAGE START */
+    .categories_text,
+    .categories_text p {
+        text-align: center;
+    }
+
+    .category_img {
+        height: 300px;
+    }
+
+    .add_banner_item {
+        height: 465px;
+    }
+
+    .favourite_product_item .img {
+        height: 205px;
+    }
+
+    .category_3_small_item {
+        height: 255px;
+    }
+
+    .category_3_large_item {
+        height: 535px;
+    }
+
+    .single_product_banner_text {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .single_product_banner_text h2 {
+        font-size: 38px;
+    }
+
+    .single_product_banner_text p {
+        font-size: 18px;
+        padding-left: 0;
+    }
+
+    .single_product_thumb {
+        height: 620px;
+    }
+
+    .single_product_small .img {
+        height: 190px;
+    }
+
+    .showcase_small_item {
+        height: 225px;
+    }
+
+    .showcase_large_item {
+        height: 480px;
+    }
+
+    .single_testimonial .text {
+        width: 100%;
+    }
+
+    .imei_img {
+        height: 420px;
+    }
+
+    .founder_testimonial_img {
+        height: 415px;
+    }
+
+    .footer_logo_area {
+        margin-bottom: 50px;
+    }
+
+    .category_img p {
+        padding: 30px;
+    }
+
+    .payment_logo {
+        margin-top: 5px;
+    }
+
+    /* HOME PAGE END */
+
+
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+
+
+
+    /* HOME PAGE START */
     .main_menu {
         padding: 0 10px;
     }
@@ -33,6 +359,466 @@
     .main_menu .navbar-brand {
         width: 150px;
     }
+
+    .categories_text {
+        text-align: center;
+        padding-right: 0;
+    }
+
+    .section_heading {
+        font-size: 32px;
+    }
+
+    .categories_text p {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .category_img {
+        height: 225px;
+    }
+
+    .category_img p {
+        font-size: 26px;
+        padding: 35px;
+    }
+
+    .add_banner_item .text h5 {
+        font-size: 22px;
+    }
+
+    .favourite_product_item .img {
+        height: 240px;
+    }
+
+    .category_3_large_item {
+        height: 405px;
+    }
+
+    .category_3_small_item {
+        height: 190px;
+    }
+
+    .single_product_banner_text {
+        text-align: center;
+        padding-right: 0;
+        padding-left: 0;
+        margin-bottom: 45px;
+    }
+
+    .single_product_banner_text h2 {
+        text-align: center;
+    }
+
+    .single_product_banner_text p {
+        text-align: center;
+        font-size: 20px;
+        padding-left: 0;
+    }
+
+    .single_product_thumb {
+        height: 720px;
+    }
+
+    .single_product_small .img {
+        height: 225px;
+    }
+
+    .showcase_small_item {
+        height: 170px;
+    }
+
+    .showcase_large_item {
+        height: 370px;
+    }
+
+    .brand_area li {
+        width: 22%;
+        height: 80px;
+    }
+
+    .imei_img {
+        height: 325px;
+    }
+
+    .founder_testimonial_img {
+        height: 325px;
+    }
+
+    .footer_logo_area .footer_logo {
+        width: 135px;
+    }
+
+    footer {
+        padding: 50px 15px 30px 15px;
+    }
+
+    .footer_logo_area ul li a,
+    .footer_logo_area ul li p {
+        max-width: 100%;
+    }
+
+    .footer_link,
+    .footer_facebook {
+        margin-top: 50px;
+    }
+
+    .progress-wrap {
+        right: 20px;
+    }
+
+    .single_testimonial .text {
+        width: 100%;
+    }
+
+    .add_banner_item {
+        height: 360px;
+    }
+
+    .payment_logo {
+        margin-top: 5px;
+    }
+
+    /* HOME PAGE END */
+
+
+
+
+
+
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+
+
+    /* HOME PAGE START */
+    .main_menu {
+        padding: 0 10px;
+    }
+
+    .main_menu .container-fluid {
+        padding: 0;
+    }
+
+    .main_menu .navbar-collapse {
+        display: none;
+    }
+
+    .main_menu .navbar-brand {
+        width: 150px;
+    }
+
+    .categories_text {
+        text-align: center;
+        padding-right: 0;
+    }
+
+    .section_heading {
+        font-size: 32px;
+    }
+
+    .categories_text p {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .categories,
+    .category_3,
+    .favourite_product,
+    .single_product_banner,
+    .showcase,
+    .testimonial,
+    .brand {
+        padding: 0px 15px;
+    }
+
+    .category_img {
+        height: 260px;
+    }
+
+    .category_img p {
+        font-size: 26px;
+        padding: 35px;
+    }
+
+    .add_banner_item .text h5 {
+        font-size: 22px;
+    }
+
+    .favourite_product_item .img {
+        height: 180px;
+    }
+
+    .category_3_large_item {
+        height: 545px;
+    }
+
+    .category_3_small_item {
+        height: 260px;
+    }
+
+    .single_product_banner_text {
+        text-align: center;
+        padding-right: 0;
+        padding-left: 0;
+        margin-bottom: 45px;
+    }
+
+    .single_product_banner_text h2 {
+        text-align: center;
+    }
+
+    .single_product_banner_text p {
+        text-align: center;
+        font-size: 20px;
+        padding-left: 0;
+    }
+
+    .single_product_thumb {
+        height: 545px;
+    }
+
+    .single_product_small .img {
+        height: 260px;
+    }
+
+    .showcase_small_item {
+        height: 265px;
+    }
+
+    .showcase_large_item {
+        height: 430px;
+    }
+
+    .brand_area li {
+        width: 30%;
+        height: 80px;
+    }
+
+    .imei_img {
+        height: 240px;
+    }
+
+    .founder_testimonial_img {
+        height: 240px;
+    }
+
+    .footer_logo_area .footer_logo {
+        width: 135px;
+    }
+
+    footer {
+        padding: 50px 15px 30px 15px;
+    }
+
+    .footer_logo_area ul li a,
+    .footer_logo_area ul li p {
+        max-width: 100%;
+    }
+
+    .footer_link,
+    .footer_facebook {
+        margin-top: 50px;
+    }
+
+    .progress-wrap {
+        right: 20px;
+    }
+
+    .single_testimonial .text {
+        width: 100%;
+    }
+
+    .add_banner_item {
+        height: 270px;
+    }
+
+    .payment_logo {
+        margin-top: 5px;
+    }
+
+    /* HOME PAGE END */
+
+
+
+}
+
+
+
+@media (max-width: 575.99px) {
+
+    /* HOME PAGE START */
+    .main_menu {
+        padding: 0 10px;
+    }
+
+    .main_menu .container-fluid {
+        padding: 0;
+    }
+
+    .main_menu .navbar-collapse {
+        display: none;
+    }
+
+    .main_menu .navbar-brand {
+        width: 150px;
+    }
+
+    .categories_text {
+        text-align: center;
+        padding-right: 0;
+    }
+
+    .section_heading {
+        font-size: 32px;
+    }
+
+    .categories_text p {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .categories,
+    .category_3,
+    .favourite_product,
+    .single_product_banner,
+    .showcase,
+    .testimonial,
+    .brand {
+        padding: 0px 15px;
+    }
+
+    .category_img {
+        height: auto;
+    }
+
+    .add_banner_item .text h5 {
+        font-size: 22px;
+    }
+
+    .favourite_product_item .img {
+        height: auto;
+    }
+
+    .category_3_large_item {
+        height: auto;
+    }
+
+    .category_3_small_item {
+        height: auto;
+    }
+
+    .single_product_banner_text {
+        text-align: center;
+        padding-right: 0;
+        padding-left: 0;
+        margin-bottom: 45px;
+    }
+
+    .single_product_banner_text h2 {
+        text-align: center;
+    }
+
+    .single_product_banner_text p {
+        text-align: center;
+        font-size: 20px;
+        padding-left: 0;
+    }
+
+    .single_product_thumb {
+        height: auto;
+    }
+
+    .single_product_small .img {
+        height: auto;
+    }
+
+    .showcase_small_item {
+        height: auto;
+    }
+
+    .showcase_large_item {
+        height: auto;
+    }
+
+    .single_testimonial .text ul li:first-child {
+        border-right: 0;
+    }
+
+    .single_testimonial .text ul li span {
+        margin-top: 15px;
+    }
+
+    .brand_area li {
+        width: 45%;
+        height: auto;
+    }
+
+    .imei_img {
+        height: auto;
+    }
+
+    .founder_testimonial_img {
+        height: auto;
+    }
+
+    .footer_logo_area .footer_logo {
+        width: 135px;
+    }
+
+    footer {
+        padding: 50px 15px 30px 15px;
+    }
+
+    .footer_logo_area ul li a,
+    .footer_logo_area ul li p {
+        max-width: 100%;
+    }
+
+    .footer_link,
+    .footer_facebook {
+        margin-top: 50px;
+    }
+
+    .progress-wrap {
+        right: 20px;
+    }
+
+    .single_testimonial {
+        padding: 20px;
+    }
+
+    .single_testimonial .text {
+        width: 100%;
+    }
+
+    .add_banner_item {
+        height: auto;
+    }
+
+    .payment_logo {
+        margin-top: 5px;
+    }
+
+    /* HOME PAGE END */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1148,6 +1148,7 @@ button {
 /* add manner start */
 .add_banner_item {
     position: relative;
+    height: 890px;
 }
 
 .add_banner_item .text {
@@ -1689,9 +1690,11 @@ footer {
     margin-top: 45px;
 }
 
+.payment_logo {
+    max-width: 980px;
+}
+
 /* footer end */
-
-
 /*====================================
     HOME PAGE END
 ====================================*/
@@ -5841,6 +5844,10 @@ footer {
     right: 13%;
     background: #F1F1F1;
     transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
 }
 
 .order_product_details {

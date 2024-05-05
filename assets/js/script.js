@@ -39,34 +39,6 @@ $(function () {
         autoplaySpeed: 3000,
         dots: true,
         arrows: false,
-        // fade: true,
-
-        // responsive: [
-        //     {
-        //         breakpoint: 1200,
-        //         settings: {
-        //             slidesToShow: 3,
-        //         }
-        //     },
-        //     {
-        //         breakpoint: 992,
-        //         settings: {
-        //             slidesToShow: 2,
-        //         }
-        //     },
-        //     {
-        //         breakpoint: 768,
-        //         settings: {
-        //             slidesToShow: 2,
-        //         }
-        //     },
-        //     {
-        //         breakpoint: 576,
-        //         settings: {
-        //             slidesToShow: 1,
-        //         }
-        //     }
-        // ]
     });
 
 
@@ -138,32 +110,40 @@ $(function () {
         nextArrow: '<i class="far fa-angle-right nextArrow"></i>',
         prevArrow: '<i class="far fa-angle-left prevArrow"></i>',
 
-        // responsive: [
-        //     {
-        //         breakpoint: 1200,
-        //         settings: {
-        //             slidesToShow: 3,
-        //         }
-        //     },
-        //     {
-        //         breakpoint: 992,
-        //         settings: {
-        //             slidesToShow: 2,
-        //         }
-        //     },
-        //     {
-        //         breakpoint: 768,
-        //         settings: {
-        //             slidesToShow: 2,
-        //         }
-        //     },
-        //     {
-        //         breakpoint: 576,
-        //         settings: {
-        //             slidesToShow: 1,
-        //         }
-        //     }
-        // ]
+        responsive: [
+            {
+                breakpoint: 1400,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 2,
+                    arrows: false,
+                }
+            }
+        ]
     });
 
 
@@ -192,21 +172,27 @@ $(function () {
 
         responsive: [
             {
+                breakpoint: 1400,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 2,
                 }
             },
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1,
                 }
             },
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1,
                 }
             },
             {
@@ -562,12 +548,6 @@ $(function () {
             }
         });
     });
-
-
-
-
-
-
 
 
 

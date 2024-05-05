@@ -30,7 +30,7 @@
   position: absolute;
   top: 5px;
   right: 5px;
-  background: #ddead2;
+  background: #ea222a1a;
   color: var(--colorPrimary);
   width: 35px;
   height: 35px;
@@ -182,7 +182,7 @@
   width: 100%;
   padding: 10px 5px;
   text-align: center;
-  background: #417a0f30;
+  background: #ea222a1a;
   border-right: 1px solid var(--colorWhite);
   font-size: 15px;
   font-weight: 600;
@@ -203,7 +203,7 @@
 }
 
 .main_mobile_menu li a {
-  border-bottom: 1px solid #65983347;
+  border-bottom: 1px solid var(--borderColor);
   width: 100%;
   font-size: 15px;
   font-weight: 500;
@@ -230,7 +230,7 @@
 .main_mobile_menu .mobile_dropdown::after {
   position: absolute;
   content: "";
-  background: url(../images/plus_icon.png);
+  background: url(../images/menu_plus_icon.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -246,7 +246,7 @@
 }
 
 .main_mobile_menu .active::after {
-  background: url(../images/minus_icon.png);
+  background: url(../images/menu_minus_icon.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -268,7 +268,7 @@
 }
 
 .main_mobile_menu li.active .inner_menu {
-  border-bottom: 1px solid #65983347;
+  border-bottom: 1px solid var(--borderColor);
 }
 
 .main_mobile_menu li ul li a {
