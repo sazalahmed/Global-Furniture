@@ -12,30 +12,30 @@
     <link rel="stylesheet" href="assets/css/utilities.css">
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/scroll_button.css">
+    <link rel="stylesheet" href="assets/css/mobile_menu.css">
+    <link rel="stylesheet" href="assets/css/select2.min.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/range_slider.css">
-    <link rel="stylesheet" href="assets/css/select2.min.css">
-
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
-
 
 <body>
 
     <!--=================================
         MENU START
     ==================================-->
-    <nav class="navbar navbar-expand-lg main_menu">
+    <nav class="navbar navbar-expand-xl main_menu">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
                 <img src="assets/images/logo.png" alt="logo" class="img-fluid">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+
+            <div class="mobile_menu_icon d-block d-xl-none" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+                <span class="mobile_menu_icon"><i class="far fa-stream menu_icon_bar" aria-hidden="true"></i></span>
+            </div>
+
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav m-auto">
                     <li class="nav-item">
@@ -862,127 +862,28 @@
                             </div>
                         </div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Interior</a>
-                        <div class="mega_menu">
-                            <div class="row">
-                                <div class="col-xl-3">
-                                    <div class="mega_menu_list">
-                                        <h3>Sofa <i class="far fa-long-arrow-right"></i></h3>
-                                        <ul>
-                                            <li><a href="#">Fabric Sofa</a></li>
-                                            <li><a href="#">Wooden Sofa</a></li>
-                                            <li><a href="#">L-Shaped Sofa</a></li>
-                                            <li><a href="#">Leather Sofa</a></li>
-                                            <li><a href="#">Rexin Sofa</a></li>
-                                            <li><a href="#">Sofa-Bed</a></li>
-                                            <li><a href="#">Single Seater</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="mega_menu_list">
-                                        <h3>Cebter Table <i class="far fa-long-arrow-right"></i></h3>
-                                        <ul>
-                                            <li><a href="#">Corner Table</a></li>
-                                            <li><a href="#">Modular Center Table</a></li>
-                                            <li><a href="#">Nested Table</a></li>
-                                            <li><a href="#">Non-Lacquer Center Table</a></li>
-                                            <li><a href="#">Center Table With Storage</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3">
-                                    <div class="mega_menu_list">
-                                        <h3>Cebter Table <i class="far fa-long-arrow-right"></i></h3>
-                                        <ul>
-                                            <li><a href="#">Corner Table</a></li>
-                                            <li><a href="#">Modular Center Table</a></li>
-                                            <li><a href="#">Nested Table</a></li>
-                                            <li><a href="#">Non-Lacquer Center Table</a></li>
-                                            <li><a href="#">Center Table With Storage</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="mega_menu_list">
-                                        <h3>Sofa <i class="far fa-long-arrow-right"></i></h3>
-                                        <ul>
-                                            <li><a href="#">Fabric Sofa</a></li>
-                                            <li><a href="#">Wooden Sofa</a></li>
-                                            <li><a href="#">L-Shaped Sofa</a></li>
-                                            <li><a href="#">Leather Sofa</a></li>
-                                            <li><a href="#">Rexin Sofa</a></li>
-                                            <li><a href="#">Sofa-Bed</a></li>
-                                            <li><a href="#">Single Seater</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3">
-                                    <div class="mega_menu_list">
-                                        <h3>Sofa <i class="far fa-long-arrow-right"></i></h3>
-                                        <ul>
-                                            <li><a href="#">Fabric Sofa</a></li>
-                                            <li><a href="#">Wooden Sofa</a></li>
-                                            <li><a href="#">L-Shaped Sofa</a></li>
-                                            <li><a href="#">Leather Sofa</a></li>
-                                            <li><a href="#">Rexin Sofa</a></li>
-                                            <li><a href="#">Sofa-Bed</a></li>
-                                            <li><a href="#">Single Seater</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="mega_menu_list">
-                                        <h3>Cebter Table <i class="far fa-long-arrow-right"></i></h3>
-                                        <ul>
-                                            <li><a href="#">Corner Table</a></li>
-                                            <li><a href="#">Modular Center Table</a></li>
-                                            <li><a href="#">Nested Table</a></li>
-                                            <li><a href="#">Non-Lacquer Center Table</a></li>
-                                            <li><a href="#">Center Table With Storage</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-xl-3">
-                                    <div class="mega_menu_list">
-                                        <h3>Cebter Table <i class="far fa-long-arrow-right"></i></h3>
-                                        <ul>
-                                            <li><a href="#">Corner Table</a></li>
-                                            <li><a href="#">Modular Center Table</a></li>
-                                            <li><a href="#">Nested Table</a></li>
-                                            <li><a href="#">Non-Lacquer Center Table</a></li>
-                                            <li><a href="#">Center Table With Storage</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="mega_menu_list">
-                                        <h3>Sofa <i class="far fa-long-arrow-right"></i></h3>
-                                        <ul>
-                                            <li><a href="#">Fabric Sofa</a></li>
-                                            <li><a href="#">Wooden Sofa</a></li>
-                                            <li><a href="#">L-Shaped Sofa</a></li>
-                                            <li><a href="#">Leather Sofa</a></li>
-                                            <li><a href="#">Rexin Sofa</a></li>
-                                            <li><a href="#">Sofa-Bed</a></li>
-                                            <li><a href="#">Single Seater</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="nav-item relative">
-                        <a class="nav-link" href="#">More <i class="far fa-angle-down"></i></a>
-                        <ul class="droap_menu">
-                            <li><a href="#">About us</a></li>
-                            <li><a href="#">Blogs</a></li>
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">Terms and condition</a></li>
-                            <li><a href="#">Privacy policy</a></li>
-                        </ul>
-                    </li>
                     <li class="nav-item relative">
                         <a class="nav-link" href="#">Pages <i class="far fa-angle-down"></i></a>
                         <ul class="droap_menu">
-                            <li><a href="#">About us</a></li>
-                            <li><a href="#">Blogs</a></li>
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">Terms and condition</a></li>
-                            <li><a href="#">Privacy policy</a></li>
+                            <li><a href="product_category.html">Category</a></li>
+                            <li><a href="product.html">Product</a></li>
+                            <li><a href="product_details.html">Product Details</a></li>
+                            <li><a href="career.html">Career</a></li>
+                            <li><a href="team.html">Team</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
+                            <li><a href="blog.html">Blogs</a></li>
+                            <li><a href="about.html">About us</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="checkout.html">Checkout</a></li>
+                            <li><a href="shoping_cart.html">shoping cart</a></li>
+                            <li><a href="team_details.html">Team Details</a></li>
+                            <li><a href="blog_details.html">Blog details</a></li>
+                            <li><a href="return_policy.html">Return Policy</a></li>
+                            <li><a href="career_details.html">Career Details</a></li>
+                            <li><a href="be_franthise.html">Be Our Franthise</a></li>
+                            <li><a href="privacy_policy.html">Privacy policy</a></li>
+                            <li><a href="terms_comdition.html">Terms and condition</a></li>
+                            <li><a href="dashboard_profile.html">Dashboard</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -1138,6 +1039,237 @@
     ==================================-->
 
 
+    <!--============================
+        MOBILE MENU START
+    ==============================-->
+    <div class="mobile_menu_area">
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><i
+                    class="fal fa-times"></i></button>
+            <div class="offcanvas-body">
+
+                <ul class="mobile_menu_header d-flex flex-wrap">
+                    <li><a href="cart_view.html"><i class="far fa-shopping-basket"></i> <span>2</span></a>
+                    </li>
+                    <li><a href="dashboard.html"><i class="far fa-user"></i></a></li>
+                </ul>
+
+                <form class="mobile_menu_search">
+                    <input type="text" placeholder="Search">
+                    <button type="submit"><i class="far fa-search"></i></button>
+                </form>
+
+                <div class="mobile_menu_item_area">
+                    <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                aria-selected="true">Categories</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                                aria-selected="false">menu</button>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                            aria-labelledby="pills-home-tab" tabindex="0">
+                            <ul class="main_mobile_menu">
+                                <li class="mobile_dropdown">
+                                    <a href="#">Fresh & Organic</a>
+                                    <ul class="inner_menu">
+                                        <li><a href="shop.html">Fresh & Organic</a></li>
+                                        <li><a href="shop.html">Sea Fish</a></li>
+                                        <li><a href="shop.html">meat</a></li>
+                                        <li><a href="shop.html">Bakery & Biscuites</a></li>
+                                        <li><a href="shop.html">Health & Beauty</a></li>
+                                        <li><a href="shop.html">Freah Fruits</a></li>
+                                        <li><a href="shop.html">Coffee & Drinks</a></li>
+                                        <li><a href="shop.html">Cleaning</a></li>
+                                        <li><a href="shop.html">Sea Fish</a></li>
+                                    </ul>
+                                </li>
+                                <li class="mobile_dropdown">
+                                    <a href="#">Sea Fish</a>
+                                    <ul class="inner_menu">
+                                        <li><a href="shop.html">meat</a></li>
+                                        <li><a href="shop.html">Bakery & Biscuites</a></li>
+                                        <li><a href="shop.html">Health & Beauty</a></li>
+                                        <li><a href="shop.html">Freah Fruits</a></li>
+                                    </ul>
+                                </li>
+                                <li class="mobile_dropdown">
+                                    <a href="#">meat</a>
+                                    <ul class="inner_menu">
+                                        <li><a href="shop.html">Fresh & Organic</a></li>
+                                        <li><a href="shop.html">Sea Fish</a></li>
+                                        <li><a href="shop.html">meat</a></li>
+                                        <li><a href="shop.html">Bakery & Biscuites</a></li>
+                                        <li><a href="shop.html">Health & Beauty</a></li>
+                                    </ul>
+                                </li>
+                                <li class="mobile_dropdown">
+                                    <a href="#">Bakery & Biscuites</a>
+                                    <ul class="inner_menu">
+                                        <li><a href="shop.html">Bakery & Biscuites</a></li>
+                                        <li><a href="shop.html">Health & Beauty</a></li>
+                                        <li><a href="shop.html">Freah Fruits</a></li>
+                                        <li><a href="shop.html">Coffee & Drinks</a></li>
+                                        <li><a href="shop.html">Cleaning</a></li>
+                                        <li><a href="shop.html">Sea Fish</a></li>
+                                    </ul>
+                                </li>
+                                <li class="mobile_dropdown">
+                                    <a href="#">Health & Beauty</a>
+                                    <ul class="inner_menu">
+                                        <li><a href="shop.html">Bakery & Biscuites</a></li>
+                                        <li><a href="shop.html">Health & Beauty</a></li>
+                                        <li><a href="shop.html">Freah Fruits</a></li>
+                                        <li><a href="shop.html">Coffee & Drinks</a></li>
+                                        <li><a href="shop.html">Cleaning</a></li>
+                                        <li><a href="shop.html">Sea Fish</a></li>
+                                    </ul>
+                                </li>
+                                <li class="mobile_dropdown">
+                                    <a href="#">Freah Fruits</a>
+                                    <ul class="inner_menu">
+                                        <li><a href="shop.html">Fresh & Organic</a></li>
+                                        <li><a href="shop.html">Sea Fish</a></li>
+                                        <li><a href="shop.html">meat</a></li>
+                                        <li><a href="shop.html">Bakery & Biscuites</a></li>
+                                        <li><a href="shop.html">Health & Beauty</a></li>
+                                        <li><a href="shop.html">Freah Fruits</a></li>
+                                    </ul>
+                                </li>
+                                <li class="mobile_dropdown">
+                                    <a href="#">Coffee & Drinks</a>
+                                    <ul class="inner_menu">
+                                        <li><a href="shop.html">meat</a></li>
+                                        <li><a href="shop.html">Bakery & Biscuites</a></li>
+                                        <li><a href="shop.html">Health & Beauty</a></li>
+                                        <li><a href="shop.html">Freah Fruits</a></li>
+                                        <li><a href="shop.html">Coffee & Drinks</a></li>
+                                    </ul>
+                                </li>
+                                <li class="mobile_dropdown">
+                                    <a href="#">Cleaning</a>
+                                    <ul class="inner_menu">
+                                        <li><a href="shop.html">Fresh & Organic</a></li>
+                                        <li><a href="shop.html">Sea Fish</a></li>
+                                        <li><a href="shop.html">meat</a></li>
+                                        <li><a href="shop.html">Bakery & Biscuites</a></li>
+                                        <li><a href="shop.html">Health & Beauty</a></li>
+                                        <li><a href="shop.html">Freah Fruits</a></li>
+                                    </ul>
+                                </li>
+                                <li class="mobile_dropdown">
+                                    <a href="#">Sea Fish</a>
+                                    <ul class="inner_menu">
+                                        <li><a href="shop.html">Freah Fruits</a></li>
+                                        <li><a href="shop.html">Coffee & Drinks</a></li>
+                                        <li><a href="shop.html">Cleaning</a></li>
+                                        <li><a href="shop.html">Sea Fish</a></li>
+                                    </ul>
+                                </li>
+                                <li class="mobile_dropdown">
+                                    <a href="#">Fresh & Organic</a>
+                                    <ul class="inner_menu">
+                                        <li><a href="shop.html">Fresh & Organic</a></li>
+                                        <li><a href="shop.html">Sea Fish</a></li>
+                                        <li><a href="shop.html">meat</a></li>
+                                        <li><a href="shop.html">Bakery & Biscuites</a></li>
+                                        <li><a href="shop.html">Health & Beauty</a></li>
+                                        <li><a href="shop.html">Freah Fruits</a></li>
+                                    </ul>
+                                </li>
+                                <li class="mobile_dropdown">
+                                    <a href="#">Bakery & Biscuites</a>
+                                    <ul class="inner_menu">
+                                        <li><a href="shop.html">Bakery & Biscuites</a></li>
+                                        <li><a href="shop.html">Health & Beauty</a></li>
+                                        <li><a href="shop.html">Freah Fruits</a></li>
+                                        <li><a href="shop.html">Coffee & Drinks</a></li>
+                                        <li><a href="shop.html">Cleaning</a></li>
+                                    </ul>
+                                </li>
+                                <li class="mobile_dropdown">
+                                    <a href="#">Health & Beauty</a>
+                                    <ul class="inner_menu">
+                                        <li><a href="shop.html">meat</a></li>
+                                        <li><a href="shop.html">Bakery & Biscuites</a></li>
+                                        <li><a href="shop.html">Health & Beauty</a></li>
+                                        <li><a href="shop.html">Freah Fruits</a></li>
+                                        <li><a href="shop.html">Coffee & Drinks</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                            aria-labelledby="pills-profile-tab" tabindex="0">
+                            <ul class="main_mobile_menu">
+                                <li class="mobile_dropdown">
+                                    <a href="#">home</a>
+                                    <ul class="inner_menu">
+                                        <li><a href="index.html">home style 01</a></li>
+                                        <li><a href="index_2.html">home style 02</a></li>
+                                        <li><a href="index_3.html">home style 03</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="about_us.html">about</a></li>
+                                <li class="mobile_dropdown">
+                                    <a href="#">shop</a>
+                                    <ul class="inner_menu">
+                                        <li><a href="shop.html">Fresh & Organic</a></li>
+                                        <li><a href="shop.html">Sea Fish</a></li>
+                                        <li><a href="shop.html">meat</a></li>
+                                        <li><a href="shop.html">Bakery & Biscuites</a></li>
+                                        <li><a href="shop.html">Health & Beauty</a></li>
+                                        <li><a href="shop.html">Freah Fruits</a></li>
+                                        <li><a href="shop.html">Coffee & Drinks</a></li>
+                                        <li><a href="shop.html">Cleaning</a></li>
+                                        <li><a href="shop.html">Sea Fish</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="blogs.html">blog</a></li>
+                                <li class="mobile_dropdown">
+                                    <a href="#">pages</a>
+                                    <ul class="inner_menu">
+                                        <li><a href="about_us.html">about us</a></li>
+                                        <li><a href="blogs_details.html">blog details</a></li>
+                                        <li><a href="shop_details.html">shop details</a></li>
+                                        <li><a href="cart_view.html">cart view</a></li>
+                                        <li><a href="checkout.html">checkout</a></li>
+                                        <li><a href="payment.html">Payment</a></li>
+                                        <li><a href="dashboard.html">dashboard</a></li>
+                                        <li><a href="order_tracking.html">order tracking</a></li>
+                                        <li><a href="team.html">Our team</a></li>
+                                        <li><a href="team_details.html">team details</a></li>
+                                        <li><a href="error.html">error/404</a></li>
+                                        <li><a href="faq.html">faq's</a></li>
+                                        <li><a href="gallery.html">gallery</a></li>
+                                        <li><a href="sign_in.html">sign in</a></li>
+                                        <li><a href="sign_up.html">sign up</a></li>
+                                        <li><a href="forgot_password.html">forgot password</a></li>
+                                        <li><a href="privacy_policy.html">privacy policy</a></li>
+                                        <li><a href="terms_condition.html">terms & condition</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact.html">contact</a></li>
+                                <li><a href="flash_sell.html">flash sell</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--============================
+        MOBILE MENU END
+    ==============================-->
+
+
     <!--=================================
         CATEGORY BANNER START
     ==================================-->
@@ -1180,7 +1312,7 @@
     <section class="user_dashborad mt_45">
         <div class="container">
             <div class="row">
-                <div class="col-xl-3">
+                <div class="col-lg-4 col-xl-3">
                     <div class="dashboard_sidebar">
                         <div class="img">
                             <img src="assets/images/dashboard_user_img.jpg" alt="user" class="img-fluid w-100">
@@ -1200,7 +1332,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-9">
+                <div class="col-lg-8 col-xl-9">
                     <div class="dashboard_wislist">
                         <div class="dashboard_wislist_deleted">
                             <div class="form-check">
@@ -1310,7 +1442,7 @@
     ==================================-->
     <footer class="mt_50" style="background: url(assets/images/footer_bg.jpg);">
         <div class="row">
-            <div class="col-xl-3">
+            <div class="col-xl-3 col-md-8 col-lg-6">
                 <div class="footer_logo_area">
                     <a class="footer_logo" href="index.html">
                         <img src="assets/images/logo.png" alt="Logo">
@@ -1338,7 +1470,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-xl-2">
+            <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
                 <div class="footer_link">
                     <h3>Categories</h3>
                     <ul>
@@ -1350,7 +1482,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-xl-2">
+            <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
                 <div class="footer_link">
                     <h3>Company</h3>
                     <ul>
@@ -1362,7 +1494,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-xl-2">
+            <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
                 <div class="footer_link">
                     <h3>Policies</h3>
                     <ul>
@@ -1374,7 +1506,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-xl-3">
+            <div class="col-xl-3 col-sm-6 col-md-4 col-lg-6">
                 <div class="footer_facebook">
                     <h3>Like us on facebook</h3>
                     <iframe
@@ -1421,12 +1553,23 @@
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <!--font-awesome js-->
     <script src="assets/js/Font-Awesome.js"></script>
+    <!--slick slider js-->
     <script src="assets/js/slick.min.js"></script>
+    <!--scroll button js-->
     <script src="assets/js/scroll_button.js"></script>
+    <!--counter up js-->
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <script src="assets/js/jquery.countup.min.js"></script>
+    <!--nice select js-->
     <script src="assets/js/jquery.nice-select.min.js"></script>
+    <!--range slider js-->
     <script src="assets/js/range_slider.js"></script>
+    <!--select 2 js-->
     <script src="assets/js/select2.min.js"></script>
-
+    <!--simplyCountdown js-->
+    <script src="assets/js/simplyCountdown.js"></script>
+    <!--sticky sidebar js-->
+    <script src="assets/js/sticky_sidebar.js"></script>
     <!--main/custom js-->
     <script src="assets/js/script.js"></script>
 

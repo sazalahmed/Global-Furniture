@@ -5263,7 +5263,6 @@ footer {
 /* sidebar menu start */
 
 .dashboard_sidebar {
-    height: 100%;
     padding: 25px 20px 35px 20px;
     background: var(--colorWhite);
     box-shadow: var(--boxShadow);
@@ -5359,7 +5358,6 @@ footer {
 /* profile start */
 
 .dashboard_right_contant {
-    height: 100%;
     padding: 30px 25px 35px 25px;
     background: var(--colorWhite);
     box-shadow: var(--boxShadow);
@@ -6492,10 +6490,6 @@ footer {
 /*====================================
     ORDER SUCCESS END
 ====================================*/
-
-
-
-
 
 
 

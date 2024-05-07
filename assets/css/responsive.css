@@ -68,6 +68,15 @@
 
 
 
+    /* PRODUCT START */
+
+    .single_product_img {
+        height: 300px;
+    }
+
+    /* PRODUCT END */
+
+
 
 
 
@@ -215,8 +224,49 @@
 
 
 
+    /* PRODUCT START */
+
+    .single_product_img {
+        height: 260px;
+    }
+
+    /* PRODUCT END */
 
 
+
+
+    /* PRODUCT DETAILS START */
+
+    .product_details_content .details_heading {
+        font-size: 28px;
+    }
+
+    .details_price .details_countdown {
+        margin-top: 20px;
+    }
+
+    .product_details_thumb {
+        height: 450px;
+    }
+
+    .details_img {
+        height: 500px;
+    }
+
+    .related_product .single_product_img {
+        height: 260px;
+    }
+
+
+
+
+
+
+
+
+
+
+    /* PRODUCT DETAILS END */
 
 
 
@@ -495,12 +545,79 @@
 
 
 
+    /* PRODUCT START */
+
+    .single_product_img {
+        height: 220px;
+    }
+
+    /* PRODUCT END */
+
+
+    /* PRODUCT DETAILS START */
+
+
+    .product_details_thumb {
+        height: 370px;
+    }
+
+    .product_details_small {
+        height: 65px;
+    }
+
+    .product_details_content .details_heading {
+        font-size: 22px;
+    }
+
+    .details_price .details_countdown {
+        margin-top: 20px;
+    }
+
+    .details_payment .details_payment_item {
+        height: 35px;
+    }
+
+    .details_btn_area li {
+        width: 100%;
+    }
+
+
+    .details_img {
+        height: 400px;
+    }
+
+    .related_product .single_product_img {
+        height: 220px;
+    }
+
+
+    /* PRODUCT DETAILS END */
 
 
 
 
+    /* DASHBOARD START */
+
+    .order_tracking_line {
+        justify-content: start;
+
+    }
+
+    .order_tracking_line li {
+        width: 125px;
+    }
+
+    .order_tracking_line li::after {
+        left: -48px;
+        width: 95px;
+    }
 
 
+    .order_product_details_left .img_text {
+        width: 70%;
+    }
+
+    /* DASHBOARD END */
 
 
 
@@ -787,6 +904,57 @@
 
 
 
+    /* PRODUCT START */
+
+    .single_product_img {
+        height: 300px;
+    }
+
+    /* PRODUCT END */
+
+
+    /* PRODUCT DETAILS START */
+
+    .product_details_thumb {
+        height: 830px;
+    }
+
+    .product_details_small {
+        height: 150px;
+    }
+
+    .product_details_content {
+        margin-top: 50px;
+    }
+
+    .details_img {
+        height: 450px;
+    }
+
+    .related_product .single_product_img {
+        height: 300px;
+    }
+
+    /* PRODUCT DETAILS END */
+
+
+    /* DASHBOARD START */
+
+
+    .order_tracking_line li::after {
+        display: none;
+    }
+
+    .order_tracking_line li {
+        margin-top: 20px;
+    }
+
+    .order_product_details_left .img_text {
+        width: 60%;
+    }
+
+    /* DASHBOARD END */
+
 
 
 
@@ -946,6 +1114,10 @@
 
     .payment_logo {
         margin-top: 5px;
+    }
+
+    .footer_logo_area {
+        margin-top: 45px;
     }
 
     /* HOME PAGE END */
@@ -1163,6 +1335,105 @@
     }
 
     /* CATEGORY END */
+
+
+    /* PRODUCT START */
+
+    .product_page {
+        padding: 0px 15px;
+    }
+
+    .product_top_filter {
+        margin-top: 60px;
+    }
+
+    .single_product_img {
+        height: 350px;
+    }
+
+    /* PRODUCT END */
+
+
+    /* PRODUCT DETAILS START */
+
+    .product_details_page {
+        padding: 0px 15px;
+    }
+
+    .product_details_thumb {
+        height: 600px;
+    }
+
+    .product_details_content {
+        margin-top: 40px;
+    }
+
+
+    .details_img {
+        height: 360px;
+    }
+
+    .related_product .single_product_img {
+        height: 310px;
+    }
+
+    /* PRODUCT DETAILS END */
+
+
+    /* DASHBOARD START */
+
+    .dashboard_right_heading .common_btn {
+        margin-top: 20px;
+    }
+
+    .dashboard_sidebar {
+        margin-bottom: 30px;
+    }
+
+    .order_tracking_line li::after {
+        display: none;
+    }
+
+    .order_tracking_line li {
+        margin-top: 20px;
+    }
+
+    .order_product_details {
+        padding: 10px 10px 10px 10px;
+        text-align: center;
+    }
+
+    .order_product_details_left {
+        width: 100%;
+    }
+
+    .order_product_details_left .img_text {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .order_product_details .text {
+        width: 100%;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .order_product_details_left .img {
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    /* DASHBOARD END */
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1598,11 +1869,118 @@
 
 
 
+    /* PRODUCT START */
+
+    .product_page {
+        padding: 0px 15px;
+    }
+
+    .product_top_filter {
+        margin-top: 60px;
+    }
+
+    .single_product_img {
+        height: 280px;
+    }
+
+    /* PRODUCT END */
 
 
 
+    /* PRODUCT DETAILS START */
+
+    .product_details_page {
+        padding: 0px 15px;
+    }
 
 
+    .product_details_thumb {
+        height: 480px;
+    }
+
+    .product_details_content .details_heading {
+        font-size: 30px;
+    }
+
+    .product_details_content {
+        margin-top: 40px;
+    }
+
+    .details_price .details_countdown {
+        margin-top: 20px;
+    }
+
+
+    .details_color ul li {
+        width: 88px;
+        height: 88px;
+    }
+
+
+    .details_payment .details_payment_item {
+        height: 110px;
+    }
+
+    .details_img {
+        height: 260px;
+    }
+
+    .product_description_area {
+        margin-bottom: 50px;
+    }
+
+
+    .related_product .single_product_img {
+        height: 500px;
+    }
+
+    /* PRODUCT DETAILS END */
+
+
+    /* DASHBOARD START */
+
+    .dashboard_right_heading .common_btn {
+        margin-top: 20px;
+    }
+
+    .dashboard_sidebar {
+        margin-bottom: 30px;
+    }
+
+    .order_tracking_line li::after {
+        display: none;
+    }
+
+    .order_tracking_line li {
+        margin-top: 20px;
+    }
+
+    .order_product_details {
+        padding: 10px 10px 10px 10px;
+        text-align: center;
+    }
+
+    .order_product_details_left {
+        width: 100%;
+    }
+
+    .order_product_details_left .img_text {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .order_product_details .text {
+        width: 100%;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .order_product_details_left .img {
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    /* DASHBOARD END */
 
 
 
@@ -2219,11 +2597,128 @@
     /* PRODUCT END */
 
 
+    /* PRODUCT DETAILS START */
 
 
+    .product_details_page {
+        padding: 0px 15px;
+    }
+
+    .product_details_area {
+        padding: 15px;
+    }
+
+    .product_details_thumb {
+        height: auto;
+    }
+
+    .product_details_small {
+        height: auto;
+    }
+
+    .product_details_content .details_heading {
+        font-size: 26px;
+    }
+
+    .product_details_content {
+        margin-top: 30px;
+    }
+
+    .details_price h3 {
+        font-size: 24px;
+    }
+
+    .details_price .details_countdown {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .details_color ul li {
+        width: 70px;
+        height: 70px;
+    }
+
+    .details_payment .details_payment_item {
+        height: auto;
+    }
+
+    .details_btn_area li {
+        width: 100%;
+    }
+
+    .product_description_area {
+        padding: 15px;
+        margin-bottom: 50px;
+    }
+
+    .details_img {
+        height: auto;
+    }
+
+    .related_product {
+        padding: 0px 15px;
+    }
+
+    .related_product .single_product_img {
+        height: auto;
+    }
+
+    /* PRODUCT DETAILS END */
 
 
+    /* DASHBOARD START */
 
+    .dashboard_right_heading .common_btn {
+        margin-top: 20px;
+    }
+
+    .dash_profile_info li span {
+        width: 120px;
+    }
+
+    .dashboard_sidebar {
+        margin-bottom: 30px;
+    }
+
+    .dashboard_right_heading h4 {
+        width: 100%;
+    }
+
+
+    .order_tracking_line li::after {
+        display: none;
+    }
+
+    .order_tracking_line li {
+        margin-top: 20px;
+    }
+
+    .order_product_details {
+        padding: 10px 10px 10px 10px;
+        text-align: center;
+    }
+
+    .order_product_details_left {
+        width: 100%;
+    }
+
+    .order_product_details_left .img_text {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .order_product_details .text {
+        width: 100%;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .order_product_details_left .img {
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    /* DASHBOARD END */
 
 
 
@@ -2238,6 +2733,5 @@
 
     /* COMMON START */
     /* COMMON END */
-
 
 }
