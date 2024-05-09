@@ -56,7 +56,7 @@ $(function () {
         slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 2000,
         dots: false,
         arrows: false,
 
@@ -166,9 +166,11 @@ $(function () {
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 2000,
         dots: false,
-        arrows: false,
+        arrows: true,
+        nextArrow: '<i class="far fa-angle-right nextArrow"></i>',
+        prevArrow: '<i class="far fa-angle-left prevArrow"></i>',
 
         responsive: [
             {
