@@ -552,5 +552,13 @@ $(function () {
     });
 
 
+    $(document).ready(function () {
+        var vid = $('#my_video').RTOP_VideoPlayer({
+            showFullScreen: true,
+            showTimer: true,
+            showSoundControl: true
+        });
+    });
+
 
 });

@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="assets/css/select2.min.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/range_slider.css">
+    <link rel="stylesheet" href="assets/css/videoPlayer.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
@@ -903,6 +904,15 @@
                         <a data-bs-toggle="modal" data-bs-target="#exampleModal">
                             <img src="assets/images/user_icon_white.png" alt="User" class="img-fluid">
                         </a>
+                        <ul class="droap_menu">
+                            <li><a href="product_category.html">Category</a></li>
+                            <li><a href="product.html">Product</a></li>
+                            <li><a href="product_details.html">Product Details</a></li>
+                            <li><a href="career.html">Career</a></li>
+                            <li><a href="team.html">Team</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
+                            <li><a href="blog.html">Blogs</a></li>
+                        </ul>
                     </li>
                 </ul>
             </div>
@@ -918,7 +928,7 @@
     </div>
 
     <div class="menu_cart_area">
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight">
             <div class="offcanvas-header">
                 <h5 class="offcanvas-title" id="offcanvasRightLabel">Shopping Cart</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><i
@@ -1012,23 +1022,40 @@
     </div>
 
     <div class="menu_login_modal">
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i
                             class="far fa-times"></i></button>
                     <div class="modal-body">
-                        <div class="login_logo">
-                            <img src="assets/images/logo.png" alt="Logo" class="img-fluid w-100">
+                        <div class="row">
+                            <div class="col-xl-5">
+                                <div class="login_text">
+                                    <img src="assets/images/login_img.png" alt="Login" class="img-fluid w-100">
+                                    <div class="text">
+                                        <h4>welcome</h4>
+                                        <p>HATIL is a fast-growing Global Furniture Brand with customers and
+                                            connoisseurs around the globe.</p>
+                                        <a href="#">sign up</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-7">
+                                <div class="login_form">
+                                    <div class="login_logo">
+                                        <img src="assets/images/logo.png" alt="Logo" class="img-fluid w-100">
+                                    </div>
+                                    <form action="#">
+                                        <input type="text" placeholder="Email or Phone">
+                                        <button class="common_btn" type="submit">Sign in</button>
+                                    </form>
+                                    <ul class="d-flex flex-wrap">
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                                        <li><a href="#"><i class="fab fa-google"></i> Google</a></li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
-                        <h3>Sign In / Sign Up</h3>
-                        <form action="#">
-                            <input type="text" placeholder="Entar email">
-                            <button class="common_btn w-100" type="submit">Continue</button>
-                        </form>
-                        <p>Or</p>
-                        <a class="common_btn facebook w-100" href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
-                        <a class="common_btn google w-100" href="#"><i class="fab fa-google"></i> Google</a>
                     </div>
                 </div>
             </div>
@@ -1290,7 +1317,7 @@
     <!--=================================
         BREADCRUMB START
     ==================================-->
-    <section class="breadcrumb mt_45">
+    <section class="breadcrumb details_page_breadcrumb mt_45">
         <div class="row w-100">
             <div class="col-12">
                 <ul class="breadcrumb_item">
@@ -1627,9 +1654,10 @@
                 <div class="row">
                     <div class="col-sm-6 col-xl-3">
                         <div class="single_product">
-                            <div class="single_product_img">
+                            <a href="#" class="single_product_img">
                                 <img src="assets/images/product_1.jpg" alt="Product" class="img-fluid">
-                            </div>
+                                <span class="discount">-18%</span>
+                            </a>
                             <div class="single_product_text">
                                 <a class="category" href="#">CHAIR & SEATING</a>
                                 <a class="title" href="#">GLOBAL Director Chair, Luxury GDC-021</a>
@@ -1639,9 +1667,9 @@
                     </div>
                     <div class="col-sm-6 col-xl-3">
                         <div class="single_product">
-                            <div class="single_product_img">
+                            <a href="#" class="single_product_img">
                                 <img src="assets/images/product_5.jpg" alt="Product" class="img-fluid">
-                            </div>
+                            </a>
                             <div class="single_product_text">
                                 <a class="category" href="#">STORAGE</a>
                                 <a class="title" href="#">GLOBAL Almirah, GA-024</a>
@@ -1651,9 +1679,10 @@
                     </div>
                     <div class="col-sm-6 col-xl-3">
                         <div class="single_product">
-                            <div class="single_product_img">
+                            <a href="#" class="single_product_img">
                                 <img src="assets/images/product_2.png" alt="Product" class="img-fluid">
-                            </div>
+                                <span class="discount">-07%</span>
+                            </a>
                             <div class="single_product_text">
                                 <a class="category" href="#">TABLE & DESKING</a>
                                 <a class="title" href="#">GLOBAL Reading Table, GRDT- 028</a>
@@ -1663,9 +1692,10 @@
                     </div>
                     <div class="col-sm-6 col-xl-3">
                         <div class="single_product">
-                            <div class="single_product_img">
+                            <a href="#" class="single_product_img">
                                 <img src="assets/images/product_6.jpg" alt="Product" class="img-fluid">
-                            </div>
+                                <span class="discount">-20%</span>
+                            </a>
                             <div class="single_product_text">
                                 <a class="category" href="#">TABLE & DESKING</a>
                                 <a class="title" href="#">GLOBAL Almirah, GA-023</a>
@@ -1675,9 +1705,9 @@
                     </div>
                     <div class="col-sm-6 col-xl-3">
                         <div class="single_product">
-                            <div class="single_product_img">
+                            <a href="#" class="single_product_img">
                                 <img src="assets/images/product_3.jpg" alt="Product" class="img-fluid">
-                            </div>
+                            </a>
                             <div class="single_product_text">
                                 <a class="category" href="#">TABLE & DESKING</a>
                                 <a class="title" href="#">GLOBAL Dressing Table, GDST-007</a>
@@ -1687,9 +1717,10 @@
                     </div>
                     <div class="col-sm-6 col-xl-3">
                         <div class="single_product">
-                            <div class="single_product_img">
+                            <a href="#" class="single_product_img">
                                 <img src="assets/images/product_7.jpg" alt="Product" class="img-fluid">
-                            </div>
+                                <span class="discount">-10%</span>
+                            </a>
                             <div class="single_product_text">
                                 <a class="category" href="#">TABLE & DESKING</a>
                                 <a class="title" href="#">GLOBAL Almirah, GA-010</a>
@@ -1699,9 +1730,9 @@
                     </div>
                     <div class="col-sm-6 col-xl-3">
                         <div class="single_product">
-                            <div class="single_product_img">
+                            <a href="#" class="single_product_img">
                                 <img src="assets/images/product_4.jpg" alt="Product" class="img-fluid">
-                            </div>
+                            </a>
                             <div class="single_product_text">
                                 <a class="category" href="#">BED & MATTRESS</a>
                                 <a class="title" href="#">GLOBAL King Bed, GKB-002</a>
@@ -1711,9 +1742,10 @@
                     </div>
                     <div class="col-sm-6 col-xl-3">
                         <div class="single_product">
-                            <div class="single_product_img">
+                            <a href="#" class="single_product_img">
                                 <img src="assets/images/product_8.jpg" alt="Product" class="img-fluid">
-                            </div>
+                                <span class="discount">-25%</span>
+                            </a>
                             <div class="single_product_text">
                                 <a class="category" href="#">DESKING</a>
                                 <a class="title" href="#">GLOBAL Dining Set, GDNS-004</a>
@@ -1723,9 +1755,9 @@
                     </div>
                     <div class="col-sm-6 col-xl-3">
                         <div class="single_product">
-                            <div class="single_product_img">
+                            <a href="#" class="single_product_img">
                                 <img src="assets/images/product_1.jpg" alt="Product" class="img-fluid">
-                            </div>
+                            </a>
                             <div class="single_product_text">
                                 <a class="category" href="#">CHAIR & SEATING</a>
                                 <a class="title" href="#">GLOBAL Director Chair, Luxury GDC-021</a>
@@ -1735,9 +1767,9 @@
                     </div>
                     <div class="col-sm-6 col-xl-3">
                         <div class="single_product">
-                            <div class="single_product_img">
+                            <a href="#" class="single_product_img">
                                 <img src="assets/images/product_5.jpg" alt="Product" class="img-fluid">
-                            </div>
+                            </a>
                             <div class="single_product_text">
                                 <a class="category" href="#">STORAGE</a>
                                 <a class="title" href="#">GLOBAL Almirah, GA-024</a>
@@ -1747,9 +1779,9 @@
                     </div>
                     <div class="col-sm-6 col-xl-3">
                         <div class="single_product">
-                            <div class="single_product_img">
+                            <a href="#" class="single_product_img">
                                 <img src="assets/images/product_2.png" alt="Product" class="img-fluid">
-                            </div>
+                            </a>
                             <div class="single_product_text">
                                 <a class="category" href="#">TABLE & DESKING</a>
                                 <a class="title" href="#">GLOBAL Reading Table, GRDT- 028</a>
@@ -1759,9 +1791,9 @@
                     </div>
                     <div class="col-sm-6 col-xl-3">
                         <div class="single_product">
-                            <div class="single_product_img">
+                            <a href="#" class="single_product_img">
                                 <img src="assets/images/product_6.jpg" alt="Product" class="img-fluid">
-                            </div>
+                            </a>
                             <div class="single_product_text">
                                 <a class="category" href="#">TABLE & DESKING</a>
                                 <a class="title" href="#">GLOBAL Almirah, GA-023</a>
@@ -1771,9 +1803,9 @@
                     </div>
                     <div class="col-sm-6 col-xl-3">
                         <div class="single_product">
-                            <div class="single_product_img">
+                            <a href="#" class="single_product_img">
                                 <img src="assets/images/product_1.jpg" alt="Product" class="img-fluid">
-                            </div>
+                            </a>
                             <div class="single_product_text">
                                 <a class="category" href="#">CHAIR & SEATING</a>
                                 <a class="title" href="#">GLOBAL Director Chair, Luxury GDC-021</a>
@@ -1783,9 +1815,9 @@
                     </div>
                     <div class="col-sm-6 col-xl-3">
                         <div class="single_product">
-                            <div class="single_product_img">
+                            <a href="#" class="single_product_img">
                                 <img src="assets/images/product_5.jpg" alt="Product" class="img-fluid">
-                            </div>
+                            </a>
                             <div class="single_product_text">
                                 <a class="category" href="#">STORAGE</a>
                                 <a class="title" href="#">GLOBAL Almirah, GA-024</a>
@@ -1795,9 +1827,9 @@
                     </div>
                     <div class="col-sm-6 col-xl-3">
                         <div class="single_product">
-                            <div class="single_product_img">
+                            <a href="#" class="single_product_img">
                                 <img src="assets/images/product_2.png" alt="Product" class="img-fluid">
-                            </div>
+                            </a>
                             <div class="single_product_text">
                                 <a class="category" href="#">TABLE & DESKING</a>
                                 <a class="title" href="#">GLOBAL Reading Table, GRDT- 028</a>
@@ -1807,9 +1839,9 @@
                     </div>
                     <div class="col-sm-6 col-xl-3">
                         <div class="single_product">
-                            <div class="single_product_img">
+                            <a href="#" class="single_product_img">
                                 <img src="assets/images/product_6.jpg" alt="Product" class="img-fluid">
-                            </div>
+                            </a>
                             <div class="single_product_text">
                                 <a class="category" href="#">TABLE & DESKING</a>
                                 <a class="title" href="#">GLOBAL Almirah, GA-023</a>
@@ -1903,8 +1935,6 @@
                     <h3>Like us on facebook</h3>
                     <iframe
                         src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fglobalfurniture.com.bd&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId"
-                        width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-                        allowfullscreen="true"
                         allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                     <ul class="d-flex flex-wrap">
                         <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -1962,6 +1992,8 @@
     <script src="assets/js/simplyCountdown.js"></script>
     <!--sticky sidebar js-->
     <script src="assets/js/sticky_sidebar.js"></script>
+    <!--video player js-->
+    <script src="assets/js/videoPlayer.min.js"></script>
     <!--main/custom js-->
     <script src="assets/js/script.js"></script>
 
