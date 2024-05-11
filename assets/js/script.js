@@ -529,7 +529,7 @@ $(function () {
     });
 
 
-    //=====MOBILE MENU TOGGLER=====
+    //Mobile menu toggler
     const mobile_menu = document.querySelectorAll(".mobile_dropdown");
     mobile_menu.forEach((dropdown) => {
         const innerMenu = dropdown.querySelector(".inner_menu");
@@ -552,6 +552,7 @@ $(function () {
     });
 
 
+    //Video player
     $(document).ready(function () {
         var vid = $('#my_video').RTOP_VideoPlayer({
             showFullScreen: true,
