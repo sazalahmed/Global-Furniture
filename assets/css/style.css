@@ -89,7 +89,7 @@ button {
     --colorWhite: #ffffff;
     --paraColor: #6a6a6a;
     --ratingColor: #FFA121;
-    --lightBg: var(--lightBg);
+    --lightBg: #f1f1f4;
     --bodyFont: "Barlow", sans-serif;
     --boxShadow: 0 5px 25px 0 rgb(0 0 0 / 10%);
     --borderColor: rgba(30, 30, 47, 0.10);
@@ -6303,6 +6303,20 @@ footer {
     margin-top: 5px;
 }
 
+.dash_order_price_right {
+    text-align: right;
+}
+
+.dash_order_price_right p {
+    margin-top: 5px;
+}
+
+.dash_order_price_right h6 {
+    border-top: 1px solid var(--borderColor);
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
 .dash_order_details::after {
     position: absolute;
     content: "";
@@ -6384,7 +6398,8 @@ footer {
     position: relative;
     margin-top: 40px;
     padding: 20px;
-    background: #F1F1F1;
+    background: var(--lightBg);
+    border-radius: 6px;
 }
 
 .order_confirmation span {
