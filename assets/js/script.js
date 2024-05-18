@@ -455,6 +455,12 @@ $(function () {
 
         responsive: [
             {
+                breakpoint: 1600,
+                settings: {
+                    slidesToShow: 4,
+                }
+            },
+            {
                 breakpoint: 1200,
                 settings: {
                     slidesToShow: 4,
@@ -463,13 +469,13 @@ $(function () {
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 3,
                 }
             },
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 3,
                 }
             },
             {
@@ -515,6 +521,12 @@ $(function () {
 
         responsive: [
             {
+                breakpoint: 1400,
+                settings: {
+                    slidesToShow: 4,
+                }
+            },
+            {
                 breakpoint: 1200,
                 settings: {
                     slidesToShow: 3,
@@ -529,7 +541,7 @@ $(function () {
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 2,
                 }
             },
             {

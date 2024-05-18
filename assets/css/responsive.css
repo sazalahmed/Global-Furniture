@@ -55,9 +55,7 @@
 
     /* HOME PAGE END */
 
-
     /* HOME PAGE START */
-
     .about_top_banner {
         height: 400px;
     }
@@ -68,18 +66,12 @@
 
     /* HOME PAGE END */
 
-
-
-
-
     /* PRODUCT START */
-
     .single_product_img {
         height: auto;
     }
 
     /* PRODUCT END */
-
     .category_page_item .img {
         height: auto;
     }
@@ -87,33 +79,7 @@
     .category_product .single_product_img {
         height: auto;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /* COMMON START */
-    /* COMMON END */
-
 }
-
-
 
 @media (min-width: 1400px) and (max-width: 1599.99px) {
 
@@ -197,9 +163,7 @@
 
     /* HOME PAGE END */
 
-
     /* HOME PAGE START */
-
     .about_top_banner {
         height: 400px;
     }
@@ -210,11 +174,7 @@
 
     /* HOME PAGE END */
 
-
-
-
     /* CATEGORY START */
-
     .category_page_item {
         width: 100%;
     }
@@ -250,7 +210,11 @@
     }
 
     .product_details_thumb {
-        height: 450px;
+        height: auto;
+    }
+
+    .product_details_small {
+        height: auto;
     }
 
     .details_img {
@@ -262,7 +226,6 @@
     }
 
     /* PRODUCT DETAILS END */
-
     .banner {
         height: auto;
     }
@@ -280,22 +243,32 @@
         line-height: 30px;
     }
 
+    .details_color ul li {
+        width: 55px;
+        height: 55px;
+    }
 
+    .details_payment .details_payment_slider_area {
+        max-width: 330px;
+    }
 
+    .details_payment .details_payment_item {
+        height: 40px;
+    }
 
+    .product_details_sidebar .details_btn_area li a {
+        padding: 11px 5px;
+    }
 
-
-
-    /* COMMON START */
-    /* COMMON END */
-
+    .related_product .single_product_img {
+        height: auto;
+    }
 
 }
 
 @media (min-width: 1200px) and (max-width: 1399.99px) {
 
     /* HOME PAGE START */
-
     .main_menu {
         padding: 0 25px;
     }
@@ -382,9 +355,7 @@
 
     /* HOME PAGE END */
 
-
     /* ABOUT PAGR START */
-
     .about_top_banner {
         height: 330px;
     }
@@ -399,9 +370,7 @@
 
     /* ABOUT PAGR END */
 
-
     /* TEAM START */
-
     .team_banner_img {
         height: 350px;
     }
@@ -420,10 +389,7 @@
 
     /* TEAM END */
 
-
-
     /* FAQ START */
-
     .faq_accordion .accordion-button::after {
         left: -1056px;
     }
@@ -438,9 +404,7 @@
 
     /* FAQ END */
 
-
     /* BLOG START */
-
     .single_blog {
         padding: 15px;
     }
@@ -451,10 +415,7 @@
 
     /* BLOG END */
 
-
-
     /* CONTACT START */
-
     .contact_text {
         padding: 15px 20px 20px 20px;
     }
@@ -469,13 +430,10 @@
 
     /* CONTACT END */
 
-
     /* CHECKOUT START */
-
     .checkout_info {
         padding: 15px 20px 20px 20px;
     }
-
 
     .checkout_order_summery {
         padding: 15px 20px 20px 20px;
@@ -483,19 +441,14 @@
 
     /* CHECKOUT END */
 
-
     /* TEAM DETAILS START */
-
     .team_details_img {
         height: 500px;
     }
 
     /* TEAM DETAILS END */
 
-
-
     /* BLOG DETAILS START */
-
     .blog_details_img {
         height: 350px;
     }
@@ -518,19 +471,14 @@
 
     /* BLOG DETAILS END */
 
-
-
     /* BE_FRANTHISE START */
-
     .be_franthise_item p {
         font-size: 13px;
     }
 
     /* BE_FRANTHISE END */
 
-
     /* CATEGORY START */
-
     .category_page_item {
         width: 100%;
     }
@@ -554,10 +502,15 @@
 
     /* PRODUCT DETAILS START */
     .product_details_thumb {
-        height: 370px;
+        height: auto;
     }
 
     .product_details_small {
+        height: auto;
+    }
+
+    .details_color ul li {
+        width: 65px;
         height: 65px;
     }
 
@@ -574,29 +527,22 @@
     }
 
     .details_btn_area li {
-        width: 100%;
+        width: 47%;
     }
 
-
     .details_img {
-        height: 400px;
+        height: 550px;
     }
 
     .related_product .single_product_img {
         height: 220px;
     }
 
-
     /* PRODUCT DETAILS END */
 
-
-
-
     /* DASHBOARD START */
-
     .order_tracking_line {
         justify-content: start;
-
     }
 
     .order_tracking_line li {
@@ -608,13 +554,11 @@
         width: 95px;
     }
 
-
     .order_product_details_left .img_text {
         width: 70%;
     }
 
     /* DASHBOARD END */
-
     .category_img p {
         padding: 20px;
     }
@@ -649,24 +593,25 @@
         font-size: 14px;
     }
 
+    .details_payment .details_payment_slider_area {
+        max-width: 380px;
+    }
 
+    .details_payment_slider_area a {
+        top: 3px;
+    }
 
+    .product_description_area {
+        margin-bottom: 50px;
+    }
 
-
-
-
-
-
-    /* COMMON START */
-    /* COMMON END */
-
+    .related_product .single_product_img {
+        height: auto;
+    }
 
 }
 
-
-
 @media (min-width: 992px) and (max-width: 1199.99px) {
-
 
     /* HOME PAGE START */
     .categories_text,
@@ -750,9 +695,7 @@
 
     /* HOME PAGE END */
 
-
     /* ABOUT PAGE START */
-
     .category_banner_img {
         height: 220px;
     }
@@ -792,19 +735,14 @@
 
     /* ABOUT PAGE END */
 
-
-
     /* CARRER START */
-
     .career_text_center {
         padding-bottom: 80px;
     }
 
     /* CARRER END */
 
-
     /* TEAM START */
-
     .team_banner_img {
         height: 300px;
     }
@@ -823,9 +761,7 @@
 
     /* TEAM END */
 
-
     /* FAQ START */
-
     .faq_accordion .accordion-button::after {
         left: -877px;
     }
@@ -840,47 +776,35 @@
 
     /* FAQ END */
 
-
     /* BLOG START */
-
     .single_blog_img {
         height: 300px;
     }
 
     /* BLOG END */
 
-
     /* CONTACT START */
-
     .contact_address_map {
         height: 400px;
     }
 
     /* CONTACT END */
 
-
-
     /* CHECKOUT START */
-
     .checkout_order_summery {
         margin-top: 30px;
     }
 
     /* CHECKOUT END */
 
-
-
     /* TEAM DETAILS START */
-
     .team_details_img {
         height: 500px;
     }
 
     /* TEAM DETAILS END */
 
-
     /* BLOG DETAILS START */
-
     .blog_details_img {
         height: 450px;
     }
@@ -895,20 +819,14 @@
 
     /* BLOG DETAILS END */
 
-
-
     /* BE_FRANTHISE START */
-
     .be_franthise_item {
         margin-bottom: 25px;
     }
 
     /* BE_FRANTHISE END */
 
-
-
     /* CATEGORY START */
-
     .category_page_item {
         width: 100%;
     }
@@ -953,10 +871,7 @@
 
     /* PRODUCT DETAILS END */
 
-
     /* DASHBOARD START */
-
-
     .order_tracking_line li::after {
         display: none;
     }
@@ -970,7 +885,6 @@
     }
 
     /* DASHBOARD END */
-
     .add_banner_item .text {
         padding-right: 50px;
     }
@@ -990,20 +904,28 @@
 
 
 
+    .product_details_thumb {
+        height: auto;
+    }
 
+    .product_details_small {
+        height: auto;
+    }
 
+    .details_emi_modal .bank_name {
+        width: 293px;
+    }
 
+    .product_description_area {
+        margin-bottom: 50px;
+    }
 
-    /* COMMON START */
-    /* COMMON END */
-
+    .related_product .single_product_img {
+        height: auto;
+    }
 }
 
-
-
 @media (min-width: 768px) and (max-width: 991.99px) {
-
-
 
     /* HOME PAGE START */
     .main_menu {
@@ -1147,9 +1069,7 @@
 
     /* HOME PAGE END */
 
-
     /* ABOUT PAGE START */
-
     .category_banner_img {
         height: 250px;
     }
@@ -1196,18 +1116,14 @@
 
     /* ABOUT PAGE END */
 
-
     /* CARRER START */
-
     .career_text_center {
         padding-bottom: 60px;
     }
 
     /* CARRER END */
 
-
     /* TEAM START */
-
     .team_banner_img {
         height: 250px;
     }
@@ -1222,9 +1138,7 @@
 
     /* TEAM END */
 
-
     /* FAQ START */
-
     .faq_accordion .accordion-button::after {
         left: -638px;
     }
@@ -1239,10 +1153,7 @@
 
     /* FAQ END */
 
-
-
     /* BLOG START */
-
     .single_blog {
         padding: 15px;
     }
@@ -1253,9 +1164,7 @@
 
     /* BLOG END */
 
-
     /* CONTACT START */
-
     .contanct_area {
         padding: 0px 15px;
     }
@@ -1266,14 +1175,10 @@
 
     /* CONTACT END */
 
-
-
     /* CHECKOUT START */
-
     .checkout {
         padding: 0px 15px;
     }
-
 
     .checkout_order_summery {
         margin-top: 30px;
@@ -1281,19 +1186,14 @@
 
     /* CHECKOUT END */
 
-
-
     /* CART START */
-
     .shoping_cart {
         padding: 0px 15px;
     }
 
     /* CART END */
 
-
     /* TEAM DETAILS START */
-
     .team_details_img {
         height: 720px;
     }
@@ -1305,10 +1205,7 @@
 
     /* TEAM DETAILS END */
 
-
-
     /* BLOG DETAILS START */
-
     .blog_details_img {
         height: 330px;
     }
@@ -1335,18 +1232,14 @@
 
     /* BLOG DETAILS END */
 
-
     /* BE_FRANTHISE START */
-
     .be_franthise_item {
         margin-bottom: 25px;
     }
 
     /* BE_FRANTHISE END */
 
-
     /* CATEGORY START */
-
     .category_page_item {
         width: 100%;
     }
@@ -1361,9 +1254,7 @@
 
     /* CATEGORY END */
 
-
     /* PRODUCT START */
-
     .product_page {
         padding: 0px 15px;
     }
@@ -1378,9 +1269,7 @@
 
     /* PRODUCT END */
 
-
     /* PRODUCT DETAILS START */
-
     .product_details_page {
         padding: 0px 15px;
     }
@@ -1393,20 +1282,17 @@
         margin-top: 40px;
     }
 
-
     .details_img {
         height: 360px;
     }
 
     .related_product .single_product_img {
-        height: 310px;
+        height: auto;
     }
 
     /* PRODUCT DETAILS END */
 
-
     /* DASHBOARD START */
-
     .dashboard_right_heading .common_btn {
         margin-top: 20px;
     }
@@ -1449,7 +1335,6 @@
     }
 
     /* DASHBOARD END */
-
     .banner {
         height: auto;
     }
@@ -1464,35 +1349,32 @@
 
 
 
+    .details_payment .details_payment_item {
+        height: 70px;
+    }
 
+    .details_emi_modal .modal-dialog {
+        max-width: 715px;
+    }
 
+    .details_emi_modal .bank_name {
+        width: 258px;
+    }
 
+    .product_details_thumb {
+        height: auto;
+    }
 
+    .product_details_small {
+        height: auto;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /* COMMON START */
-    /* COMMON END */
-
+    .product_description_area {
+        margin-bottom: 50px;
+    }
 }
 
-
-
 @media (min-width: 576px) and (max-width: 767.99px) {
-
 
     /* HOME PAGE START */
     .main_menu {
@@ -1642,9 +1524,7 @@
 
     /* HOME PAGE END */
 
-
     /* ABOUT PAGE START */
-
     .category_banner_img {
         height: 230px;
     }
@@ -1691,9 +1571,7 @@
 
     /* ABOUT PAGE END */
 
-
     /* CARRER START */
-
     .career_text_center {
         padding-bottom: 40px;
     }
@@ -1707,9 +1585,7 @@
 
     /* CARRER END */
 
-
     /* TEAM START */
-
     .team_banner_img {
         height: 250px;
     }
@@ -1728,10 +1604,7 @@
 
     /* TEAM END */
 
-
     /* FAQ START */
-
-
     .faq_accordion .accordion-button::after {
         left: -458px;
     }
@@ -1746,20 +1619,14 @@
 
     /* FAQ END */
 
-
-
     /* BLOG START */
-
     .single_blog_img {
         height: 330px;
     }
 
     /* BLOG END */
 
-
-
     /* CONTACT START */
-
     .contanct_area {
         padding: 0px 15px;
     }
@@ -1782,19 +1649,14 @@
 
     /* CONTACT END */
 
-
     /* CHECKOUT START */
-
     .checkout {
         padding: 0px 15px;
     }
 
-
     /* CHECKOUT END */
 
-
     /* CART START */
-
     .shoping_cart {
         padding: 0px 15px;
     }
@@ -1805,9 +1667,7 @@
 
     /* CART END */
 
-
     /* TEAM DETAILS START */
-
     .team_details_img {
         height: 530px;
     }
@@ -1819,11 +1679,7 @@
 
     /* TEAM DETAILS END */
 
-
-
     /* BLOG DETAILS START */
-
-
     .blog_details_img {
         height: 250px;
     }
@@ -1850,28 +1706,21 @@
 
     /* BLOG DETAILS END */
 
-
     /* RETURN POLICY START */
-
     .return_policy_contant .nav-pills li {
         width: 100%;
     }
 
     /* RETURN POLICY END */
 
-
     /* BE_FRANTHISE START */
-
     .be_franthise_item {
         margin-bottom: 25px;
     }
 
     /* BE_FRANTHISE END */
 
-
-
     /* ORDER SUCCESS START */
-
     .order_success_header p {
         font-size: 28px;
     }
@@ -1882,9 +1731,7 @@
 
     /* ORDER SUCCESS END */
 
-
     /* CATEGORY START */
-
     .category_page_item .img {
         height: auto;
     }
@@ -1899,10 +1746,7 @@
 
     /* CATEGORY END */
 
-
-
     /* PRODUCT START */
-
     .product_page {
         padding: 0px 15px;
     }
@@ -1917,17 +1761,14 @@
 
     /* PRODUCT END */
 
-
-
     /* PRODUCT DETAILS START */
-
     .product_details_page {
         padding: 0px 15px;
     }
 
 
     .product_details_thumb {
-        height: 480px;
+        height: auto;
     }
 
     .product_details_content .details_heading {
@@ -1942,15 +1783,13 @@
         margin-top: 20px;
     }
 
-
     .details_color ul li {
-        width: 88px;
-        height: 88px;
+        width: 60px;
+        height: 60px;
     }
 
-
     .details_payment .details_payment_item {
-        height: 110px;
+        height: 50px;
     }
 
     .details_img {
@@ -1961,16 +1800,13 @@
         margin-bottom: 50px;
     }
 
-
     .related_product .single_product_img {
-        height: 500px;
+        height: auto;
     }
 
     /* PRODUCT DETAILS END */
 
-
     /* DASHBOARD START */
-
     .dashboard_right_heading .common_btn {
         margin-top: 20px;
     }
@@ -2013,7 +1849,6 @@
     }
 
     /* DASHBOARD END */
-
     .banner {
         height: auto;
     }
@@ -2049,6 +1884,9 @@
         height: 600px;
     }
 
+    .product_details_small {
+        height: auto;
+    }
 
 
 
@@ -2058,23 +1896,32 @@
 
 
 
+    .details_payment .details_payment_slider_area {
+        max-width: 340px;
+    }
 
+    .details_emi_modal .bank_name {
+        width: 100%;
+    }
 
+    .details_emi_modal .emi_tabs_area .tab-content {
+        margin-left: 0;
+    }
 
+    .details_emi_modal .modal-body table thead tr th,
+    .details_emi_modal .modal-body table tbody tr td {
+        min-width: auto;
+    }
 
+    .details_emi_modal .btn-close {
+        top: -5px;
+        right: -5px;
+    }
 
-
-
-
-
-
-    /* COMMON START */
-    /* COMMON END */
-
-
+    .details_emi_modal .modal-dialog {
+        max-width: 550px;
+    }
 }
-
-
 
 @media (max-width: 575.99px) {
 
@@ -2233,9 +2080,7 @@
 
     /* HOME PAGE END */
 
-
     /* ABOUT PAGE END */
-
     .category_banner_img {
         height: 150px;
     }
@@ -2311,10 +2156,7 @@
 
     /* ABOUT PAGE END */
 
-
     /* CARRER START */
-
-
     .single_career {
         padding: 10px 10px 15px 10px;
     }
@@ -2341,9 +2183,7 @@
 
     /* CARRER END */
 
-
     /* TEAM START */
-
     .team_banner_img {
         height: 150px;
     }
@@ -2362,10 +2202,7 @@
 
     /* TEAM END */
 
-
     /* FAQ START */
-
-
     .faq_accordion .accordion-button::after {
         left: -240px;
     }
@@ -2380,10 +2217,7 @@
 
     /* FAQ END */
 
-
-
     /* BLOG START */
-
     .single_blog {
         padding: 10px;
     }
@@ -2394,9 +2228,7 @@
 
     /* BLOG END */
 
-
     /* CONTACT START */
-
     .contanct_area {
         padding: 0px 15px;
     }
@@ -2419,10 +2251,7 @@
 
     /* CONTACT END */
 
-
-
     /* CHECKOUT START */
-
     .checkout {
         padding: 0px 15px;
     }
@@ -2442,9 +2271,7 @@
 
     /* CHECKOUT END */
 
-
     /* CART START */
-
     .shoping_cart {
         padding: 0px 15px;
     }
@@ -2476,9 +2303,7 @@
 
     /* CART END */
 
-
     /* TEAM DETAILS START */
-
     .team_details_img {
         height: auto;
     }
@@ -2490,10 +2315,7 @@
 
     /* TEAM DETAILS END */
 
-
-
     /* BLOG DETAILS START */
-
     .blog_details_img {
         height: auto;
     }
@@ -2546,9 +2368,7 @@
 
     /* BLOG DETAILS END */
 
-
     /* RETURN POLICY START */
-
     .return_policy_contant {
         padding: 22px 20px 25px 20px;
     }
@@ -2559,9 +2379,7 @@
 
     /* RETURN POLICY END */
 
-
     /* CAREER DETAILS START */
-
     .career_details_area {
         padding: 0px 26px 25px 25px;
     }
@@ -2570,7 +2388,6 @@
 
 
     /* BE_FRANTHISE START */
-
     .be_franthise_item {
         margin-bottom: 25px;
     }
@@ -2579,17 +2396,13 @@
 
 
     /* PRIVECY_TERM START */
-
     .privacy_terms_contant {
         padding: 0px 15px 25px 15px;
     }
 
     /* PRIVECY_TERM END */
 
-
-
     /* ORDER SUCCESS START */
-
     .order_success_header p {
         font-size: 28px;
     }
@@ -2604,12 +2417,7 @@
 
     /* ORDER SUCCESS END */
 
-
-
-
     /* CATEGORY START */
-
-
     .category_page_item {
         width: 100%;
     }
@@ -2640,10 +2448,7 @@
 
     /* CATEGORY END */
 
-
-
     /* PRODUCT START */
-
     .product_page {
         padding: 0px 15px;
         margin-top: 20px !important;
@@ -2659,10 +2464,7 @@
 
     /* PRODUCT END */
 
-
     /* PRODUCT DETAILS START */
-
-
     .product_details_page {
         padding: 0px 15px;
     }
@@ -2706,7 +2508,7 @@
     }
 
     .details_btn_area li {
-        width: 100%;
+        width: 100% !important;
     }
 
     .product_description_area {
@@ -2728,9 +2530,7 @@
 
     /* PRODUCT DETAILS END */
 
-
     /* DASHBOARD START */
-
     .dashboard_right_heading .common_btn {
         margin-top: 20px;
     }
@@ -2746,7 +2546,6 @@
     .dashboard_right_heading h4 {
         width: 100%;
     }
-
 
     .order_tracking_line li::after {
         display: none;
@@ -2782,9 +2581,6 @@
     }
 
     /* DASHBOARD END */
-
-
-
     .banner {
         height: auto;
     }
@@ -2828,10 +2624,52 @@
         min-width: 55px;
     }
 
+    .details_payment .details_payment_slider_area {
+        max-width: 155px;
+    }
 
+    .details_payment_slider_area a {
+        top: 7px;
+        right: -105px;
+        font-size: 13px;
+    }
 
+    .details_emi_modal .modal-body {
+        padding: 20px;
+    }
 
-    /* COMMON START */
-    /* COMMON END */
+    .details_emi_modal .bank_name {
+        width: 100%;
+    }
 
+    .details_emi_modal .emi_tabs_area .tab-content {
+        margin-left: 0;
+    }
+
+    .details_emi_modal .modal-body table thead tr th,
+    .details_emi_modal .modal-body table tbody tr td {
+        min-width: auto;
+    }
+
+    .details_emi_modal .modal-body table thead tr th,
+    .details_emi_modal .modal-body table tbody tr td {
+        font-size: 13px;
+    }
+
+    .details_emi_modal .btn-close {
+        top: -5px;
+        right: -5px;
+    }
+
+    .details_emi_modal p {
+        font-size: 16px;
+    }
+
+    .details_specification {
+        padding: 10px 10px 10px 10px;
+    }
+
+    .related_product .related_heading {
+        font-size: 26px;
+    }
 }

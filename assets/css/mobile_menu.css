@@ -30,7 +30,7 @@
   position: absolute;
   top: 5px;
   right: 5px;
-  background: #ea222a1a;
+  background: #ea222a1a !important;
   color: var(--colorPrimary);
   width: 35px;
   height: 35px;
@@ -54,9 +54,7 @@
 }
 
 .mobile_menu_area .btn-close:hover {
-  background: var(--colorRed);
-  color: var(--colorWhite);
-  border-color: var(--colorRed);
+  border-color: var(--colorPrimary);
 }
 
 .mobile_menu_area .offcanvas.offcanvas-start {
