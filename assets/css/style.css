@@ -1186,12 +1186,16 @@ button {
 
 /* banner start */
 .banner {
-    height: 100vh;
+    height: auto;
     position: relative;
 }
 
-.banner div {
+/* .banner div {
     height: 100%;
+} */
+
+.banner .banner_slider_item {
+    height: 100vh;
 }
 
 .banner .banner_slider_item a {
@@ -1220,7 +1224,7 @@ button {
 }
 
 .banner #my_video {
-    height: 100%;
+    height: 100vh;
 }
 
 .banner .rtopVideoPlayerWrapper .rtopVideoPlayer .vidControls {

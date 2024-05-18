@@ -39,6 +39,16 @@ $(function () {
         autoplaySpeed: 3000,
         dots: true,
         arrows: false,
+
+
+        responsive: [
+            {
+                breakpoint: 576,
+                settings: {
+                    dots: false,
+                }
+            }
+        ]
     });
 
 
@@ -189,18 +199,21 @@ $(function () {
                 breakpoint: 992,
                 settings: {
                     slidesToShow: 1,
+                    arrows: false,
                 }
             },
             {
                 breakpoint: 768,
                 settings: {
                     slidesToShow: 1,
+                    arrows: false,
                 }
             },
             {
                 breakpoint: 576,
                 settings: {
                     slidesToShow: 1,
+                    arrows: false,
                 }
             }
         ]
