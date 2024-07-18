@@ -209,7 +209,7 @@ button {
 
 .title {
     display: block;
-    font-size: 16px;
+    font-size: 18px;
     color: var(--colorBlack);
     font-weight: 600;
     transition: all linear .3s;
@@ -692,7 +692,7 @@ button {
 .menu_search_area {
     width: 100%;
     height: 100%;
-    background: #ffffffc2;
+    background: #000000c9;
     position: fixed;
     top: 0;
     left: 0;
@@ -747,7 +747,7 @@ button {
     position: absolute;
     top: -50px;
     right: 0;
-    color: var(--paraColor);
+    color: var(--colorPrimary);
     font-size: 20px;
     cursor: pointer;
     transition: all linear .3s;
@@ -960,7 +960,14 @@ button {
 }
 
 .menu_cart_area .menu_cart_footer .view_cart {
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+}
+
+.menu_cart_area .menu_cart_footer .checkout {
+    padding: 11px 35px;
     background: var(--colorBlack);
+    color: var(--colorWhite);
 }
 
 .menu_cart_area .menu_cart_footer .checkout:after {
@@ -2541,7 +2548,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 3px;
+    gap: 15px;
 }
 
 .details_price .simply-countdown .simply-word {
@@ -2551,18 +2558,36 @@ footer {
 .details_price .simply-countdown .simply-amount {
     display: block;
     width: 40px;
-    height: 30px;
-    background: var(--lightBg);
-    color: var(--colorBlack);
-    line-height: 30px;
+    height: 38px;
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+    line-height: 40px;
     text-align: center;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 700;
     border-radius: 4px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
+}
+
+.details_price .simply-countdown .simply-section {
+    position: relative;
+}
+
+.details_price .simply-countdown .simply-section::after {
+    position: absolute;
+    content: ":";
+    color: var(--colorPrimary);
+    font-weight: 600;
+    font-size: 20px;
+    top: 2px;
+    right: -11px;
+}
+
+.details_price .simply-countdown .simply-seconds-section::after {
+    display: none;
 }
 
 .product_details_content .point {
@@ -4729,6 +4754,7 @@ footer {
     gap: 25px;
     margin-top: 20px;
     margin-bottom: 10px;
+    justify-content: space-between;
 }
 
 .single_blog_text ul li {
@@ -7014,3 +7040,93 @@ footer {
 /*====================================
     ORDER SUCCESS END
 ====================================*/
+
+
+.career_apply_text {
+    margin-top: 25px;
+    padding: 25px;
+    background: var(--colorWhite);
+    box-shadow: rgb(0 0 0 / 13%) 0px 4px 12px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.career_apply_text h3 {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    display: flex;
+    line-height: 0;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.career_apply_text h3 span {
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: #5f6368;
+    text-align: center;
+    line-height: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+.resume_img {
+    border: 1px solid #eee;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 150px;
+}
+
+.career_apply button {
+    background: var(--colorGreen);
+    color: var(--colorWhite);
+}
+
+.career_apply button:hover {
+    background: #24833b;
+}
+
+.career_apply_text input,
+.career_apply_text textarea {
+    margin-top: 20px;
+}
+
+.career_apply_text .pdf_file_show {
+    border: 1px solid #eee;
+    padding: 5px 20px;
+    border-radius: 3px;
+    margin-top: 15px;
+    position: relative;
+}
+
+.career_apply_text .pdf_file_show a {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    background: #ff00001f;
+    color: var(--colorBlack);
+    border-radius: 50%;
+    font-size: 13px;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+.career_apply_text .pdf_file_show a:hover {
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+}

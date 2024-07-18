@@ -930,6 +930,7 @@
     /* HOME PAGE START */
     .main_menu {
         padding: 0 10px;
+        background: var(--colorWhite) !important;
     }
 
     .main_menu .container-fluid {
@@ -1337,17 +1338,27 @@
     /* DASHBOARD END */
     .banner {
         height: auto;
+        margin-top: 80px;
     }
 
     .banner #my_video {
         height: auto;
     }
 
-    .banner .banner_slider_item {
-        height: 600px;
+    .banner .banner_slider_item a {
+        border-radius: 10px;
+        overflow: hidden;
     }
 
+    .banner .banner_slider_item {
+        height: 400px;
+        margin: 0px 25px 25px 25px;
+    }
 
+    .banner_call {
+        bottom: 40px;
+        left: 30px;
+    }
 
     .details_payment .details_payment_item {
         height: 70px;
@@ -1379,6 +1390,7 @@
     /* HOME PAGE START */
     .main_menu {
         padding: 0 10px;
+        background: var(--colorWhite) !important;
     }
 
     .main_menu .container-fluid {
@@ -1394,7 +1406,7 @@
     }
 
     .categories_text {
-        text-align: center;
+        text-align: left;
         padding-right: 0;
     }
 
@@ -1403,8 +1415,9 @@
     }
 
     .categories_text p {
-        text-align: center;
+        text-align: left;
         font-size: 16px;
+        margin-top: 0;
     }
 
     .categories,
@@ -1422,7 +1435,7 @@
     }
 
     .category_img p {
-        font-size: 26px;
+        font-size: 18px;
         padding: 35px;
     }
 
@@ -1851,10 +1864,21 @@
     /* DASHBOARD END */
     .banner {
         height: auto;
+        margin-top: 80px;
+    }
+
+    .banner .banner_slider_item {
+        padding: 0px 25px 25px 25px;
     }
 
     .banner .banner_slider_item a {
-        height: 600px;
+        height: 260px;
+        overflow: hidden;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
     }
 
     .categories_text a,
@@ -1864,16 +1888,16 @@
     }
 
     .category_img p {
-        padding: 30px;
+        padding: 20px;
     }
 
     .add_banner_item .text {
-        align-items: center;
+        /* align-items: center; */
         padding-right: 0;
     }
 
     .add_banner_item .text {
-        padding-right: 100px;
+        padding-right: 50px;
     }
 
     .banner #my_video {
@@ -1881,7 +1905,11 @@
     }
 
     .banner .banner_slider_item {
-        height: 600px;
+        height: auto;
+    }
+
+    .banner_call {
+        display: none;
     }
 
     .product_details_small {
@@ -1928,6 +1956,7 @@
     /* HOME PAGE START */
     .main_menu {
         padding: 0 10px;
+        background: var(--colorWhite) !important;
     }
 
     .main_menu .container-fluid {
@@ -1943,17 +1972,19 @@
     }
 
     .categories_text {
-        text-align: center;
+        text-align: left;
         padding-right: 0;
     }
 
     .section_heading {
-        font-size: 32px;
+        font-size: 20px;
+        margin: 0 !important;
     }
 
     .categories_text p {
-        text-align: center;
+        text-align: left;
         font-size: 16px;
+        margin-top: 0;
     }
 
     .categories,
@@ -1971,7 +2002,7 @@
     }
 
     .add_banner_item .text h5 {
-        font-size: 22px;
+        font-size: 16px;
     }
 
     .favourite_product_item .img {
@@ -2583,10 +2614,13 @@
     /* DASHBOARD END */
     .banner {
         height: auto;
+        margin-top: 80px;
     }
 
     .banner .banner_slider_item a {
-        height: 500px;
+        height: auto;
+        border-radius: 10px;
+        overflow: hidden;
     }
 
     .categories_text a,
@@ -2600,8 +2634,8 @@
     }
 
     .add_banner_item .text {
-        align-items: center;
-        padding-right: 0;
+        /* align-items: center; */
+        padding-right: 20px;
     }
 
     .single_product_small .text a {
@@ -2618,6 +2652,7 @@
 
     .banner .banner_slider_item {
         height: auto;
+        padding: 0px 25px 25px 25px;
     }
 
     .product_top_filter ul li p {
@@ -2671,5 +2706,13 @@
 
     .related_product .related_heading {
         font-size: 26px;
+    }
+
+    .category_img p {
+        font-size: 14px;
+    }
+
+    .banner_call {
+        display: none;
     }
 }
