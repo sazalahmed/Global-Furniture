@@ -1222,6 +1222,159 @@ button {
 
 /* banner end */
 
+
+/* flash sell start */
+.flash_sell {
+    padding: 0px 25px;
+}
+
+.flash_sell_heading_area {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    border-bottom: 2px solid #eee;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
+.flash_sell_heading_area .img {
+    width: 150px;
+}
+
+.flash_count_down {
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.flash_count_down b {}
+
+.flash_count_down .simply-countdown {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.flash_count_down .simply-countdown .simply-amount {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--colorPrimary);
+    margin-left: 15px;
+    position: relative;
+}
+
+.flash_count_down .simply-countdown .simply-amount::after {
+    position: absolute;
+    content: ":";
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--paraColor);
+    top: -7px;
+    right: -10px;
+}
+
+.flash_count_down .simply-countdown .simply-section:last-child .simply-amount::after {
+    display: none;
+}
+
+.flash_count_down .simply-countdown .simply-word {
+    display: none;
+}
+
+.flash_sell_item {
+    display: block;
+    margin: 0 12px;
+}
+
+.flash_sell_item span {
+    display: block;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.flash_sell_item h3 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--colorBlack);
+    margin-top: 10px;
+}
+
+
+
+.flas_sell_page {
+    padding: 0px 25px;
+}
+
+.flas_sell_page .flash_sell_heading_area {
+    box-shadow: 0 5px 25px 0 rgb(0 0 0 / 10%);
+    padding: 10px 20px;
+    background: #fff !important;
+    border-radius: 10px;
+    margin-bottom: 0;
+}
+
+.flas_sell_page .flash_count_down {
+    margin-bottom: 0;
+}
+
+.flas_sell_page .simply-countdown .simply-amount {
+    display: block;
+    width: 40px;
+    height: 38px;
+    background: var(--colorPrimary);
+    color: var(--colorWhite);
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.flas_sell_page .simply-countdown .simply-amount::after {
+    top: -5px;
+    right: -11px;
+}
+
+.flas_sell_page .select_box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.flas_sell_page .select_box .show {}
+
+.flas_sell_page .select_box .nice-select {
+    border: solid 1px #ddd !important;
+    height: 32px;
+    line-height: 30px;
+    padding-left: 15px;
+    padding-right: 45px;
+    width: 75px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.flas_sell_page .select_box .nice-select .option {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.flas_sell_page .select_box .nice-select .list {
+    width: 100%;
+}
+
+/* flash sell end */
+
+
 /* categorirs start */
 .categories {
     padding: 0px 25px;
@@ -2098,7 +2251,7 @@ footer {
 }
 
 .category_product .single_product_img {
-    height: 445px;
+    /* height: 445px; */
 }
 
 /*====================================
@@ -2324,7 +2477,7 @@ footer {
 
 .single_product_img {
     display: block;
-    height: 365px;
+    /* height: 365px; */
     overflow: hidden;
     position: relative;
 }
@@ -3292,7 +3445,7 @@ footer {
 }
 
 .related_product .single_product_img {
-    height: 335px;
+    /* height: 335px; */
 }
 
 .related_product .slick-dots {
